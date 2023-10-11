@@ -1,7 +1,7 @@
 Cloudflare Icons 
-https://cf-icons.pages.dev/
+https://cf-icons.pages.dev/ for your architecture diagram,
 <br/>
-pulled from this npm public module [@cloudflare/component-icon](https://www.npmjs.com/package/@cloudflare/component-icon)
+which is pulled from this npm public module [@cloudflare/component-icon](https://www.npmjs.com/package/@cloudflare/component-icon)
 
 ![top](./top.png)
 
