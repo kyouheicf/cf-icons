@@ -1,7 +1,7 @@
 Cloudflare Icons 
 https://cf-icons.pages.dev/
 <br/>
-pulled from [@cloudflare/component-icon - npm](https://www.npmjs.com/package/@cloudflare/component-icon)
+pulled from this npm public module [@cloudflare/component-icon](https://www.npmjs.com/package/@cloudflare/component-icon)
 
 ![top](./top.png)
 
