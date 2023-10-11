@@ -1170,7 +1170,7 @@
   resolved "https://registry.npmjs.org/@cloudflare/intl-types/-/intl-types-1.5.1.tgz"
   integrity sha512-zCHVZ9xtvRxDjiqxgG7GPeaS2kpshQsq8dDrZl+c8ppuerrzBreW7hHVw3orllAOe0HLjLCKYWVj47W4O6U8lg==
 
-"@cloudflare/style-const@^5.3.14", "@cloudflare/style-const@^5.7.2":
+"@cloudflare/style-const@^5.3.14", "@cloudflare/style-const@^5.7.2", "@cloudflare/style-const@^5.7.3":
   version "5.7.3"
   resolved "https://registry.npmjs.org/@cloudflare/style-const/-/style-const-5.7.3.tgz"
   integrity sha512-N9Y8bcFXoO7htm+sSVsBmQOVbjLeEY2hy1CBmvt0AoH1zWvs3izwJrnlL0ee4kJ6DkyjaY6SIAkUGUtTOApF3Q==
