@@ -19,3 +19,7 @@ npm i @cloudflare/component-icon
 mkdir -p src/components/reactsvgs
 cp node_modules/@cloudflare/component-icon/es/reactsvgs/* src/components/reactsvgs/
 ```
+
+Another great icon library is also here
+
+- [Brand Icons - Cloudflare Datamining](https://cfdata.lol/icons/)
