@@ -11,3 +11,11 @@ To deploy on Cloudflare Pages, use the following env parameter
 CI = false
 YARN_VERSION = 1
 ```
+
+To reflect the latect icons data, use the following command
+
+```shell:
+npm i @cloudflare/component-icon
+mkdir -p src/components/reactsvgs
+cp node_modules/@cloudflare/component-icon/es/reactsvgs/* src/components/reactsvgs/
+```
