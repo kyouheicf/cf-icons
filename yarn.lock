@@ -1178,7 +1178,7 @@
     "@cloudflare/types" "^6.21.15"
     polished "^4.1.4"
 
-"@cloudflare/style-container@^7.10.0":
+"@cloudflare/style-container@^7.10.0", "@cloudflare/style-container@^7.12.2":
   version "7.12.2"
   resolved "https://registry.npmjs.org/@cloudflare/style-container/-/style-container-7.12.2.tgz"
   integrity sha512-oPgUBSvBlJ4uQ/YHG4uJzx1Z8VCTo47pmy+5rNsaQlUxVh8LC7Tg9hdIPFYiIfi1+5u2MoB8flP3Ra07xzE4HA==
