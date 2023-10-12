@@ -39,14 +39,6 @@ function App() {
               apps.
             </h2>
             <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
-              {
-                Object.entries(IconComponents).map(iconType => (
-                  <div class="item" key={iconType[0]}>
-                    <Icon type={iconType[0]} size={48} color="blue.4" /><br />
-                    <code>{iconType[0]} </code>
-                  </div>
-                ))
-              }
               <div class="item" key="logo">
                 <svg
                   width="61"
@@ -76,6 +68,14 @@ function App() {
                   />
                 </svg><br />
                 <code>cloudflare-logo</code></div>
+              {
+                Object.entries(IconComponents).map(iconType => (
+                  <div class="item" key={iconType[0]}>
+                    <Icon type={iconType[0]} size={48} color="blue.4" /><br />
+                    <code>{iconType[0]} </code>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </StyleProvider>
