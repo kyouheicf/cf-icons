@@ -4,9 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+class Doc extends React.Component {
+  componentDidMount() {
+    document.title = "Cloudflare Icons Library"
+  }
+
+  render() {
+    return (
+      <b></b>
+    )
+  }
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Doc />
     <App />
   </React.StrictMode>
 );
