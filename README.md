@@ -15,6 +15,7 @@ YARN_VERSION = 1
 To reflect the latect icons data, use the following command
 
 ```shell:
+cd cf-icons
 npm i @cloudflare/component-icon
 mkdir -p src/components/reactsvgs
 cp node_modules/@cloudflare/component-icon/es/reactsvgs/* src/components/reactsvgs/
