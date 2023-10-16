@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@cloudflare/component-icon": "^11.8.5",
+    "@cloudflare/component-logo": "^7.0.2",
     "@cloudflare/elements": "^3.0.3",
     "@cloudflare/style-const": "^5.7.3",
     "@cloudflare/style-container": "^7.12.2",
