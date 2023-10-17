@@ -90,7 +90,7 @@ function App() {
               <div class="item" key='logo-header'>
                 <div id='logo-header'>
                   <LogoHeader /></div><br />
-                <code>logo-header</code><br />
+                <code>logo-header (responsive)</code><br />
                 <button value='logo-header' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
                   Save as SVG
                 </button>
