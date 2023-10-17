@@ -1,6 +1,6 @@
 const svgServe = async ({ request, env }) => {
     const url = new URL(request.url)
-    const extension = url.split(/[#?]/)[0].split('.').pop().trim()
+    const extension = url.pathname.split('/').reverse()[0].split('.')[1]
     console.log(extension)
 
     if (extension === 'svg') {
