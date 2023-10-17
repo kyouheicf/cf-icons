@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgImage = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M4.77 8.04a1 1 0 100-2 1 1 0 000 2z"
 }));
 
-export default SvgImage;/* eslint-disable import/first */
+export default SvgImage;

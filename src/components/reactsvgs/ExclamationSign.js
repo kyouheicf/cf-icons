@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgExclamationSign = props => /*#__PURE__*/React.createElement("svg", _exten
   d: "M8.48 6.63h-1v3.44h1V6.63zM8.48 10.727h-1v1.146h1v-1.146z"
 }));
 
-export default SvgExclamationSign;/* eslint-disable import/first */
+export default SvgExclamationSign;

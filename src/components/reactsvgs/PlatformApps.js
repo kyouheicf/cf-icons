@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgPlatformApps = props => /*#__PURE__*/React.createElement("svg", _extends(
   d: "M8.25 4.478h-.5L5.075 6.022l-.25.432v3.09l.25.432 2.675 1.546h.5l2.675-1.546.25-.432v-3.09l-.25-.433L8.25 4.478zm1.925 4.772L8 10.5 5.825 9.25v-2.5L8 5.5l2.175 1.25v2.5z"
 }));
 
-export default SvgPlatformApps;/* eslint-disable import/first */
+export default SvgPlatformApps;

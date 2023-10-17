@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -15,4 +16,4 @@ var SvgTrafficAttackBrowser = props => /*#__PURE__*/React.createElement("svg", _
   d: "m41.35 31.8-2.85-2.81-6.5 6.58-6.58-6.51-2.81 2.85 6.58 6.5-6.51 6.58 2.84 2.81 6.51-6.57 6.58 6.5 2.81-2.84-6.58-6.51 6.51-6.58Z"
 }));
 
-export default SvgTrafficAttackBrowser;/* eslint-disable import/first */
+export default SvgTrafficAttackBrowser;

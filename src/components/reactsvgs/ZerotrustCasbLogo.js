@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgZerotrustCasbLogo = props => /*#__PURE__*/React.createElement("svg", _ext
   d: "m5.042 8.234.801-.773 1.543 1.61 3.249-3.277.792.783-4.041 4.098-2.344-2.44Z"
 }));
 
-export default SvgZerotrustCasbLogo;/* eslint-disable import/first */
+export default SvgZerotrustCasbLogo;

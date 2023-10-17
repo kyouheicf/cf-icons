@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -11,4 +12,4 @@ var SvgCaretRight = props => /*#__PURE__*/React.createElement("svg", _extends({}
   d: "M4.488 1.85l.854-.353 6.15 6.15v.707l-6.15 6.15-.854-.354V1.85z"
 }));
 
-export default SvgCaretRight;/* eslint-disable import/first */
+export default SvgCaretRight;

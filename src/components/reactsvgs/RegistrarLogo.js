@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgRegistrarLogo = props => /*#__PURE__*/React.createElement("svg", _extends
   d: "M6.236 8.165h-.01l-.183-.78h-.382l-.178.786h-.01l-.166-.786h-.392l.32 1.227h.418l.192-.715h.014l.191.715h.418l.32-1.227h-.392l-.16.78zM8.177 8.165h-.011l-.182-.78h-.383l-.177.786h-.01l-.166-.786h-.392l.32 1.227h.418l.192-.715h.013l.192.715h.418l.32-1.227h-.392l-.16.78zM10.117 8.165h-.01l-.182-.78h-.383l-.177.786h-.01l-.166-.786h-.392l.319 1.227h.419l.191-.715h.014l.192.715h.418l.32-1.227h-.392l-.16.78zM10.881 8.222a.2.2 0 00-.147.06.193.193 0 00-.06.146.195.195 0 00.06.146.199.199 0 00.147.061c.036 0 .071-.01.102-.028a.22.22 0 00.075-.075.2.2 0 00.014-.184.195.195 0 00-.047-.066.2.2 0 00-.144-.06z"
 }));
 
-export default SvgRegistrarLogo;/* eslint-disable import/first */
+export default SvgRegistrarLogo;

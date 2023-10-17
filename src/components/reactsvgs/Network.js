@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgNetwork = props => /*#__PURE__*/React.createElement("svg", _extends({}, p
   d: "M7.98 4.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm0 3.5A1.25 1.25 0 119.23 6.5a1.25 1.25 0 01-1.25 1.268V7.75z"
 }));
 
-export default SvgNetwork;/* eslint-disable import/first */
+export default SvgNetwork;

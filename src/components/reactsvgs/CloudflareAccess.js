@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgCloudflareAccess = props => /*#__PURE__*/React.createElement("svg", _exte
   d: "M9.447 7.272L7.59 5.415l-.617.617 1.08 1.083H0l.52.872h8.63l.297-.715zM9.435 11.213l-.618-.618 1.08-1.082H1.425l-.518-.875h10.088l.298.717-1.858 1.857z"
 }));
 
-export default SvgCloudflareAccess;/* eslint-disable import/first */
+export default SvgCloudflareAccess;

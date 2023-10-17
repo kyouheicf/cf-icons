@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgClipboard = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M7.978 5.172H4.643v1h3.335v-1zM11.357 7.261H4.643v1h6.714v-1zM11.357 9.351H4.643v1h6.714v-1z"
 }));
 
-export default SvgClipboard;/* eslint-disable import/first */
+export default SvgClipboard;

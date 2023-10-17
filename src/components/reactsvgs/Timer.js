@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgTimer = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M10.166 5.874 5.129 10.88l.705.71 5.037-5.008-.705-.71Z"
 }));
 
-export default SvgTimer;/* eslint-disable import/first */
+export default SvgTimer;

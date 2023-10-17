@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgRevert = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M8 1.5A6.5 6.5 0 1014.5 8 6.507 6.507 0 008 1.5zm0 12A5.5 5.5 0 1113.5 8 5.507 5.507 0 018 13.5z"
 }));
 
-export default SvgRevert;/* eslint-disable import/first */
+export default SvgRevert;

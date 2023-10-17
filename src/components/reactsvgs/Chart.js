@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgChart = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M8 1.5l-.5.5v6l.5.5h6l.5-.5A6.508 6.508 0 008 1.5zm.5 6V2.522A5.51 5.51 0 0113.478 7.5H8.5z"
 }));
 
-export default SvgChart;/* eslint-disable import/first */
+export default SvgChart;

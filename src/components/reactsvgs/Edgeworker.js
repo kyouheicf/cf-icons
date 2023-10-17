@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -15,4 +16,4 @@ var SvgEdgeworker = props => /*#__PURE__*/React.createElement("svg", _extends({}
   d: "M9.725 1.988H8.472l4.533 6.027-4.533 5.973h1.255l4.303-5.67v-.603L9.725 1.988z"
 }));
 
-export default SvgEdgeworker;/* eslint-disable import/first */
+export default SvgEdgeworker;

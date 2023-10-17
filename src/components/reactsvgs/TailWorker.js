@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -15,4 +16,4 @@ var SvgTailWorker = props => /*#__PURE__*/React.createElement("svg", _extends({}
   d: "M9.717 2H8.471l4.51 6.027L8.47 14h1.25L14 8.33v-.603L9.717 2ZM7.4 6h1v3.5h-1zM6.2 7h1v2.5h-1zM5 8h1v1.5H5z"
 }));
 
-export default SvgTailWorker;/* eslint-disable import/first */
+export default SvgTailWorker;

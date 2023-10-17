@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -14,4 +15,4 @@ var SvgMagicFirewall = props => /*#__PURE__*/React.createElement("svg", _extends
   d: "m2 2.5-.5.5v10.5l.5.5h12l.5-.5V10l-.5-.5h-2.25v-3l-.5-.5H8.5V3L8 2.5H2Zm6.5 8h5V13h-5v-2.5Zm-1 0V13h-5v-2.5h5Zm-1.75-1V7h5v2.5h-5Zm-1 0V7H2.5v2.5h2.25ZM7.5 6h-5V3.5h5V6Z"
 }));
 
-export default SvgMagicFirewall;/* eslint-disable import/first */
+export default SvgMagicFirewall;

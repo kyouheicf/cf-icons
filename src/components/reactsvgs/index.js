@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 import Dlp from './Dlp';
 import AccountAnalyticsLogo from './AccountAnalyticsLogo';
 import AddMember from './AddMember';
@@ -295,4 +296,4 @@ export default {
   zaraz: Zaraz,
   'zerotrust-casb-logo': ZerotrustCasbLogo,
   'zerotrust-networks-logo': ZerotrustNetworksLogo
-};/* eslint-disable import/first */
+};

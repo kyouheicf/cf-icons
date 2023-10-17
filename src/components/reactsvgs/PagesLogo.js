@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgPagesLogo = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M7.15 9.5h-2.9l-.425-.775 5.2-8 .9.375L8.85 6.5h2.9l.425.775-5.2 8-.9-.375L7.15 9.5zM3.725 4.575a.35.35 0 100-.7.35.35 0 000 .7zM4.65 4.575a.35.35 0 100-.7.35.35 0 000 .7zM5.575 4.575a.35.35 0 100-.7.35.35 0 000 .7z"
 }));
 
-export default SvgPagesLogo;/* eslint-disable import/first */
+export default SvgPagesLogo;

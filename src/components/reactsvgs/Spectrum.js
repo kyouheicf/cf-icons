@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -27,4 +28,4 @@ var SvgSpectrum = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M6.058 5.352l-.708.707 1.56 1.56.707-.708-1.56-1.56z"
 }));
 
-export default SvgSpectrum;/* eslint-disable import/first */
+export default SvgSpectrum;

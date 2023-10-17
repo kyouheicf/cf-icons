@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -16,4 +17,4 @@ var SvgByoip = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M4.25 9.99h.807V8.75h.679c.878 0 1.389-.523 1.389-1.286 0-.759-.502-1.294-1.369-1.294H4.25V9.99zm.807-1.886V6.831h.545c.466 0 .691.254.691.634 0 .378-.225.64-.688.64h-.548z"
 }));
 
-export default SvgByoip;/* eslint-disable import/first */
+export default SvgByoip;

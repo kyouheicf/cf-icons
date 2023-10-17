@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -15,4 +16,4 @@ var SvgWorkersBundled = props => /*#__PURE__*/React.createElement("svg", _extend
   d: "M7.25 6v1.5h1.5v1h-1.5V10h-1V8.5h-1.5v-1h1.5V6h1z"
 }));
 
-export default SvgWorkersBundled;/* eslint-disable import/first */
+export default SvgWorkersBundled;

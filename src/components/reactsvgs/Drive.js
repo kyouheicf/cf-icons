@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -19,4 +20,4 @@ var SvgDrive = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M2 9.785l-.5.5v3.213l.5.5h12.002l.5-.5v-3.213l-.5-.5H2zm.5 3.213v-2.213h11.002v2.213H2.5z"
 }));
 
-export default SvgDrive;/* eslint-disable import/first */
+export default SvgDrive;

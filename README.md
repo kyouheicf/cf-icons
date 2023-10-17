@@ -21,6 +21,7 @@ cd cf-icons
 npm i @cloudflare/component-icon
 mkdir -p src/components/reactsvgs
 cp node_modules/@cloudflare/component-icon/es/reactsvgs/* src/components/reactsvgs/
+sed -i "" -e '1s/^/\/\* eslint-disable import\/first \*\/\n/' src/components/reactsvgs/*.js
 ```
 
 To upload SVG into Cloudflare Images for external URL reference

@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -13,4 +14,4 @@ var SvgCalendar = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M5.25 9.39a.75.75 0 100-1.5.75.75 0 000 1.5zM5.25 11.835a.75.75 0 100-1.5.75.75 0 000 1.5zM10.75 9.39a.75.75 0 100-1.5.75.75 0 000 1.5zM10.75 10.335a.75.75 0 100 1.5.75.75 0 000-1.5zM8 9.39a.75.75 0 100-1.5.75.75 0 000 1.5zM8 11.835a.75.75 0 100-1.5.75.75 0 000 1.5z"
 }));
 
-export default SvgCalendar;/* eslint-disable import/first */
+export default SvgCalendar;

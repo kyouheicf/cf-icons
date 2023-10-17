@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import * as React from 'react';
@@ -14,4 +15,4 @@ var SvgApiSecurity = props => /*#__PURE__*/React.createElement("svg", _extends({
   d: "M7.627 1.165h.745l.289.32a6.896 6.896 0 003.852 1.912l.343.05.428.495v3.534c0 2.463-1.191 4.292-2.375 5.498-1.182 1.205-2.387 1.823-2.507 1.882l-.179.09h-.447l-.177-.09c-.12-.06-1.326-.678-2.507-1.882-1.184-1.206-2.375-3.035-2.375-5.498V3.941l.428-.495.343-.05a6.896 6.896 0 003.852-1.91l.287-.321zM8 2.239a7.896 7.896 0 01-4.283 2.134v3.103c0 2.115 1.018 3.706 2.089 4.798A9.438 9.438 0 008 13.938a9.437 9.437 0 002.195-1.664c1.071-1.092 2.089-2.683 2.089-4.798V4.374A7.897 7.897 0 018 2.239z"
 }));
 
-export default SvgApiSecurity;/* eslint-disable import/first */
+export default SvgApiSecurity;
