@@ -13,4 +13,4 @@ var SvgCaseStudy = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "m26.26 41.79 8.83 8 2.69-3-8.83-8a12.53 12.53 0 1 0-2.69 2.95v.05ZM10 32a8.5 8.5 0 1 1 8.5 8.5A8.51 8.51 0 0 1 10 32Z"
 }));
 
-export default SvgCaseStudy;
+export default SvgCaseStudy;/* eslint-disable import/first */

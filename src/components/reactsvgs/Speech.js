@@ -13,4 +13,4 @@ var SvgSpeech = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M12.5 4.503h-9v1h9v-1zM12.5 7h-9v1h9V7z"
 }));
 
-export default SvgSpeech;
+export default SvgSpeech;/* eslint-disable import/first */

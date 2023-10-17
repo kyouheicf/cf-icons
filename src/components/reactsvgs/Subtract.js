@@ -11,4 +11,4 @@ var SvgSubtract = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M14 7.5H2v1h12v-1Z"
 }));
 
-export default SvgSubtract;
+export default SvgSubtract;/* eslint-disable import/first */

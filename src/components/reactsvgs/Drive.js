@@ -19,4 +19,4 @@ var SvgDrive = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M2 9.785l-.5.5v3.213l.5.5h12.002l.5-.5v-3.213l-.5-.5H2zm.5 3.213v-2.213h11.002v2.213H2.5z"
 }));
 
-export default SvgDrive;
+export default SvgDrive;/* eslint-disable import/first */

@@ -11,4 +11,4 @@ var SvgResizeHorizontal = props => /*#__PURE__*/React.createElement("svg", _exte
   d: "M9.678 14.516l-1.053-.436V1.436L9.678 1 16 7.322v.872l-6.322 6.322zM7.375 1.439v12.643l-1.053.436L0 8.196v-.872l6.322-6.321 1.053.436z"
 }));
 
-export default SvgResizeHorizontal;
+export default SvgResizeHorizontal;/* eslint-disable import/first */

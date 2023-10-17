@@ -17,4 +17,4 @@ var SvgFilter = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M0 0h16v16H0z"
 }))));
 
-export default SvgFilter;
+export default SvgFilter;/* eslint-disable import/first */

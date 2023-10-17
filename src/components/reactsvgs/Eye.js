@@ -15,4 +15,4 @@ var SvgEye = props => /*#__PURE__*/React.createElement("svg", _extends({}, props
   d: "M8.85 7.853a.75.75 0 100-1.5.75.75 0 000 1.5z"
 }));
 
-export default SvgEye;
+export default SvgEye;/* eslint-disable import/first */

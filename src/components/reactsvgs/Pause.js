@@ -13,4 +13,4 @@ var SvgPause = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M7 5H6v6h1V5zM10 5H9v6h1V5z"
 }));
 
-export default SvgPause;
+export default SvgPause;/* eslint-disable import/first */

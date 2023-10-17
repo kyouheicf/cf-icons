@@ -11,4 +11,4 @@ var SvgCaretDown = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M14.15 4.492H1.85l-.354.854 6.15 6.15h.707l6.15-6.15-.353-.854z"
 }));
 
-export default SvgCaretDown;
+export default SvgCaretDown;/* eslint-disable import/first */

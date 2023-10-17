@@ -13,4 +13,4 @@ var SvgNetwork = props => /*#__PURE__*/React.createElement("svg", _extends({}, p
   d: "M7.98 4.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm0 3.5A1.25 1.25 0 119.23 6.5a1.25 1.25 0 01-1.25 1.268V7.75z"
 }));
 
-export default SvgNetwork;
+export default SvgNetwork;/* eslint-disable import/first */

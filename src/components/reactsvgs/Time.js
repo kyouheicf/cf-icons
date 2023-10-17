@@ -13,4 +13,4 @@ var SvgTime = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M8.5 3.725h-1V8.36l2.7 2.808.72-.693L8.5 7.957V3.725z"
 }));
 
-export default SvgTime;
+export default SvgTime;/* eslint-disable import/first */

@@ -13,4 +13,4 @@ var SvgImage = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M4.77 8.04a1 1 0 100-2 1 1 0 000 2z"
 }));
 
-export default SvgImage;
+export default SvgImage;/* eslint-disable import/first */

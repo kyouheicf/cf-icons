@@ -13,4 +13,4 @@ var SvgGateway = props => /*#__PURE__*/React.createElement("svg", _extends({}, p
   d: "M8.453 7.238H0l.517.87H8.97l-.518-.87zM9.21 8.51H.755l.517.868h8.453L9.21 8.51z"
 }));
 
-export default SvgGateway;
+export default SvgGateway;/* eslint-disable import/first */

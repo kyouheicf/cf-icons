@@ -13,4 +13,4 @@ var SvgLogs = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M8.063 9.26H6.995l-.567 1.533h1.067l.567-1.533Zm2.25 0H9.245l-.567 1.533h1.067l.568-1.533Zm2.25 0h-1.068l-.567 1.533h1.067l.568-1.533Z"
 }));
 
-export default SvgLogs;
+export default SvgLogs;/* eslint-disable import/first */

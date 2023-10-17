@@ -13,4 +13,4 @@ var SvgDiscover = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M8 3.055a4.657 4.657 0 0 0-2.49 8.593v1.847l.49.493h4l.49-.493v-1.847A4.657 4.657 0 0 0 8 3.055Zm1.765 7.883-.255.14v1.927H6.49v-1.928l-.255-.14a3.677 3.677 0 1 1 3.53 0Z"
 }));
 
-export default SvgDiscover;
+export default SvgDiscover;/* eslint-disable import/first */

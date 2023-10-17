@@ -15,4 +15,4 @@ var SvgWorkersUnbound = props => /*#__PURE__*/React.createElement("svg", _extend
   d: "M6.763 5.264L4.79 7.284l.573.558.899-.92v2.323h1V6.921l.899.921.572-.559-1.971-2.019zM6.263 10.007v1h1v-1h-1z"
 }));
 
-export default SvgWorkersUnbound;
+export default SvgWorkersUnbound;/* eslint-disable import/first */

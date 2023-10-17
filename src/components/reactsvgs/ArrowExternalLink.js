@@ -11,4 +11,4 @@ var SvgArrowExternalLink = props => /*#__PURE__*/React.createElement("svg", _ext
   d: "m15.983 16.26.034 4 27.115-.22-28.546 28.546 2.828 2.828L45.96 22.868l-.22 27.115 4 .034.277-34.034-34.034.277Z"
 }));
 
-export default SvgArrowExternalLink;
+export default SvgArrowExternalLink;/* eslint-disable import/first */

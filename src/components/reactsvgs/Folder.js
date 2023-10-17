@@ -15,4 +15,4 @@ var SvgFolder = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M14 8H2V7h12v1z"
 })));
 
-export default SvgFolder;
+export default SvgFolder;/* eslint-disable import/first */

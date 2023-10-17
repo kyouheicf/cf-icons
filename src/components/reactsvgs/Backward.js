@@ -11,4 +11,4 @@ var SvgBackward = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M14 7.5H3.439l4.29-4.387-.714-.699L1.55 8l5.465 5.586.714-.7L3.44 8.5h10.56v-1z"
 }));
 
-export default SvgBackward;
+export default SvgBackward;/* eslint-disable import/first */

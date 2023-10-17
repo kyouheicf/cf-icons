@@ -13,4 +13,4 @@ var SvgList = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M11.366 3.665h-4.75v1h4.75v-1zM11.366 5.761h-4.75v1h4.75v-1zM11.366 7.858h-4.75v1h4.75v-1zM5.634 3.672h-1v1h1v-1zM5.634 5.761h-1v1h1v-1zM5.634 7.851h-1v1h1v-1z"
 }));
 
-export default SvgList;
+export default SvgList;/* eslint-disable import/first */

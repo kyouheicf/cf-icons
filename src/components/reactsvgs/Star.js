@@ -14,4 +14,4 @@ var SvgStar = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M7.875 3.279 6.71 6.902H2.92l3.066 2.25-1.168 3.63 3.057-2.244 3.057 2.244-1.168-3.63 3.065-2.25H9.04L7.875 3.28ZM5.981 5.902l1.418-4.41h.952l1.418 4.41h4.587l.295.903-3.714 2.727 1.42 4.413-.773.556-3.709-2.722-3.71 2.723-.771-.557 1.42-4.413-3.715-2.727.295-.903h4.587Z"
 }));
 
-export default SvgStar;
+export default SvgStar;/* eslint-disable import/first */

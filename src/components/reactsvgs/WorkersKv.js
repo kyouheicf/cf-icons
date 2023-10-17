@@ -14,4 +14,4 @@ var SvgWorkersKv = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M1.5 3l.5-.5h4.75l.419.227.852 1.306H14l.5.5V13l-.5.5H2l-.5-.5V3zm1 .5v9h11V5.033H7.75l-.419-.227L6.48 3.5H2.5z"
 }));
 
-export default SvgWorkersKv;
+export default SvgWorkersKv;/* eslint-disable import/first */

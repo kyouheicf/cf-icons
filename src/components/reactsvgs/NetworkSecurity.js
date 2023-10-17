@@ -13,4 +13,4 @@ var SvgNetworkSecurity = props => /*#__PURE__*/React.createElement("svg", _exten
   clipRule: "evenodd"
 }));
 
-export default SvgNetworkSecurity;
+export default SvgNetworkSecurity;/* eslint-disable import/first */

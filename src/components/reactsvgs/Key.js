@@ -11,4 +11,4 @@ var SvgKey = props => /*#__PURE__*/React.createElement("svg", _extends({}, props
   d: "M15.973 7.2H7.25a3.643 3.643 0 100 1h4.527v2.235h1V8.2H14v3.25h1V8.2h.973v-1zm-12.33 3.142a2.643 2.643 0 11-.005-5.285 2.643 2.643 0 01.005 5.285z"
 }));
 
-export default SvgKey;
+export default SvgKey;/* eslint-disable import/first */

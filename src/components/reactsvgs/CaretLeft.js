@@ -11,4 +11,4 @@ var SvgCaretLeft = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M10.641 1.497l-6.15 6.15v.707l6.15 6.15.854-.354V1.85l-.854-.353z"
 }));
 
-export default SvgCaretLeft;
+export default SvgCaretLeft;/* eslint-disable import/first */

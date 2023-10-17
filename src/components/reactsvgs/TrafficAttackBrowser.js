@@ -15,4 +15,4 @@ var SvgTrafficAttackBrowser = props => /*#__PURE__*/React.createElement("svg", _
   d: "m41.35 31.8-2.85-2.81-6.5 6.58-6.58-6.51-2.81 2.85 6.58 6.5-6.51 6.58 2.84 2.81 6.51-6.57 6.58 6.5 2.81-2.84-6.58-6.51 6.51-6.58Z"
 }));
 
-export default SvgTrafficAttackBrowser;
+export default SvgTrafficAttackBrowser;/* eslint-disable import/first */

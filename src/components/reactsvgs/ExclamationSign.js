@@ -13,4 +13,4 @@ var SvgExclamationSign = props => /*#__PURE__*/React.createElement("svg", _exten
   d: "M8.48 6.63h-1v3.44h1V6.63zM8.48 10.727h-1v1.146h1v-1.146z"
 }));
 
-export default SvgExclamationSign;
+export default SvgExclamationSign;/* eslint-disable import/first */

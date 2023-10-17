@@ -13,4 +13,4 @@ var SvgCopy = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M2 5.5l-.5.5v8l.5.5h8l.5-.5V6l-.5-.5H2zm7.5 8h-7v-7h7v7z"
 }));
 
-export default SvgCopy;
+export default SvgCopy;/* eslint-disable import/first */

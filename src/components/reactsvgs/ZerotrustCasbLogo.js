@@ -13,4 +13,4 @@ var SvgZerotrustCasbLogo = props => /*#__PURE__*/React.createElement("svg", _ext
   d: "m5.042 8.234.801-.773 1.543 1.61 3.249-3.277.792.783-4.041 4.098-2.344-2.44Z"
 }));
 
-export default SvgZerotrustCasbLogo;
+export default SvgZerotrustCasbLogo;/* eslint-disable import/first */

@@ -17,4 +17,4 @@ var SvgWorkersPages = props => /*#__PURE__*/React.createElement("svg", _extends(
   d: "m7.771 5.578-.335 1.716h.877l.295.538-2.227 3.365-.486-.635.329-1.7h-.878l-.295-.537 2.223-3.424.497.677Z"
 }));
 
-export default SvgWorkersPages;
+export default SvgWorkersPages;/* eslint-disable import/first */

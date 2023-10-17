@@ -13,4 +13,4 @@ var SvgTurnstile = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M7.178 9.696 5.583 7.822 5 8.452 7.168 11 11 6.638 10.427 6l-3.25 3.696Z"
 }));
 
-export default SvgTurnstile;
+export default SvgTurnstile;/* eslint-disable import/first */

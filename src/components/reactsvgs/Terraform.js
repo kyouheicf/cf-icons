@@ -12,4 +12,4 @@ var SvgTerraform = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M2 1v4.42l3.827 2.21V3.21L2 1Zm8.074 4.677-3.828-2.21v4.42l3.828 2.21v-4.42Zm.42 4.42v-4.42L14 3.79V8l-3.506 2.096ZM10.074 15l-3.828-2.21V8.371l3.828 2.21V15Z"
 }));
 
-export default SvgTerraform;
+export default SvgTerraform;/* eslint-disable import/first */

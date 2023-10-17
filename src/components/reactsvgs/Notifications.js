@@ -16,4 +16,4 @@ var SvgNotifications = props => /*#__PURE__*/React.createElement("svg", _extends
   d: "M11.763 3.67a2.678 2.678 0 00-1.007-.437l-.202.979a1.678 1.678 0 011.271 2.116l.96.281a2.678 2.678 0 00-1.022-2.938z"
 }));
 
-export default SvgNotifications;
+export default SvgNotifications;/* eslint-disable import/first */

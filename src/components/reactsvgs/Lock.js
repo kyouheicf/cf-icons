@@ -13,4 +13,4 @@ var SvgLock = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M8 8.95a.965.965 0 00-.43 1.83v1.57h.86v-1.57A.965.965 0 008 8.95z"
 }));
 
-export default SvgLock;
+export default SvgLock;/* eslint-disable import/first */

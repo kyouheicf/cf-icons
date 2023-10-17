@@ -14,4 +14,4 @@ var SvgDocumentation = props => /*#__PURE__*/React.createElement("svg", _extends
   d: "M2 2.25l-.5.5v10.5l.5.5h4a1.5 1.5 0 011.3.75h1.4a1.5 1.5 0 011.3-.75h4l.5-.5V2.75l-.5-.5h-4c-.818 0-1.544.393-2 1a2.496 2.496 0 00-2-1H2zm5.5 2.5A1.5 1.5 0 006 3.25H2.5v9.5H6a2.49 2.49 0 011.5.5v-8.5zm1 8.5a2.49 2.49 0 011.5-.5h3.5v-9.5H10a1.5 1.5 0 00-1.5 1.5v8.5z"
 }));
 
-export default SvgDocumentation;
+export default SvgDocumentation;/* eslint-disable import/first */

@@ -13,4 +13,4 @@ var SvgTrace = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   clipRule: "evenodd"
 }));
 
-export default SvgTrace;
+export default SvgTrace;/* eslint-disable import/first */

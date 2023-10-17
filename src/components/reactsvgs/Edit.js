@@ -11,4 +11,4 @@ var SvgEdit = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M5.685 11.864l.254-.136 7.105-7.085v-.707l-2.48-2.48h-.707L2.753 8.54l-.138.258-.605 3.105.59.586 3.085-.625zM3.567 9.14l6.643-6.625 1.773 1.773-6.644 6.625-2.205.447.433-2.22zM14 13.5H2v1h12v-1z"
 }));
 
-export default SvgEdit;
+export default SvgEdit;/* eslint-disable import/first */

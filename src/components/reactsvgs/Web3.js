@@ -17,4 +17,4 @@ var SvgWeb3 = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M0 0h16v16H0z"
 }))));
 
-export default SvgWeb3;
+export default SvgWeb3;/* eslint-disable import/first */

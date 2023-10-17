@@ -13,4 +13,4 @@ var SvgPagesLogo = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M7.15 9.5h-2.9l-.425-.775 5.2-8 .9.375L8.85 6.5h2.9l.425.775-5.2 8-.9-.375L7.15 9.5zM3.725 4.575a.35.35 0 100-.7.35.35 0 000 .7zM4.65 4.575a.35.35 0 100-.7.35.35 0 000 .7zM5.575 4.575a.35.35 0 100-.7.35.35 0 000 .7z"
 }));
 
-export default SvgPagesLogo;
+export default SvgPagesLogo;/* eslint-disable import/first */

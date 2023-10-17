@@ -13,4 +13,4 @@ var SvgStream = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M6.43 6.223l.755-.43 3.771 2.234.001.86-3.771 2.243-.756-.43V6.223zm1 .877v2.72l2.292-1.362L7.43 7.1z"
 }));
 
-export default SvgStream;
+export default SvgStream;/* eslint-disable import/first */

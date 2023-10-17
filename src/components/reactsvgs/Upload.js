@@ -19,4 +19,4 @@ var SvgUpload = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M0 0h16v16H0z"
 }))));
 
-export default SvgUpload;
+export default SvgUpload;/* eslint-disable import/first */

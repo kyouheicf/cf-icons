@@ -14,4 +14,4 @@ var SvgAccountAnalyticsLogo = props => /*#__PURE__*/React.createElement("svg", _
   d: "M13 14.5V9h-1v5.5h1zM11 14.5v-4.125h-1V14.5h1zM9 14.5v-2.063H8V14.5h1z"
 }));
 
-export default SvgAccountAnalyticsLogo;
+export default SvgAccountAnalyticsLogo;/* eslint-disable import/first */

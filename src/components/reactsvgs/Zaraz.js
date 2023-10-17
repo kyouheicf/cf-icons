@@ -21,4 +21,4 @@ var SvgZaraz = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M 6.5 11.5 L 15 11.5 L 15 10.5 L 6.5 10.5 Z M 6.5 11.5 "
 }));
 
-export default SvgZaraz;
+export default SvgZaraz;/* eslint-disable import/first */

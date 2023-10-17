@@ -13,4 +13,4 @@ var SvgInternetBrowser = props => /*#__PURE__*/React.createElement("svg", _exten
   d: "M14 3.017H2l-.5.5v9.968l.5.5h12l.5-.5V3.517l-.5-.5zm-.5 1V5.75h-11V4.017h11zm-11 8.968V6.75h11V13l-11-.015z"
 }));
 
-export default SvgInternetBrowser;
+export default SvgInternetBrowser;/* eslint-disable import/first */

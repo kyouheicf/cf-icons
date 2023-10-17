@@ -15,4 +15,4 @@ var SvgNetworkAnalyticsLogo = props => /*#__PURE__*/React.createElement("svg", _
   d: "M4.025 7.075h-1v.93h1v-.93zM5.625 5.925h-1V8.01h1V5.925zM7.225 5h-1v3.02h1V5z"
 }));
 
-export default SvgNetworkAnalyticsLogo;
+export default SvgNetworkAnalyticsLogo;/* eslint-disable import/first */

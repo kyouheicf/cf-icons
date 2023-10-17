@@ -13,4 +13,4 @@ var SvgFile = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M7.965 3.678H4.63v1h3.335v-1zM11.342 5.768H4.63v1h6.712v-1zM11.342 7.857H4.63v1h6.712v-1z"
 }));
 
-export default SvgFile;
+export default SvgFile;/* eslint-disable import/first */

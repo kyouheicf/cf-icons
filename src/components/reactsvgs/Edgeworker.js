@@ -15,4 +15,4 @@ var SvgEdgeworker = props => /*#__PURE__*/React.createElement("svg", _extends({}
   d: "M9.725 1.988H8.472l4.533 6.027-4.533 5.973h1.255l4.303-5.67v-.603L9.725 1.988z"
 }));
 
-export default SvgEdgeworker;
+export default SvgEdgeworker;/* eslint-disable import/first */

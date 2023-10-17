@@ -15,4 +15,4 @@ var SvgFirewallRules = props => /*#__PURE__*/React.createElement("svg", _extends
   d: "M2 14h12l.5-.5v-9L14 4h-3.25l-.5.5V7H8.5l-.5.5V10H2l-.5.5v3l.5.5zm.5-3h2.25v2H2.5v-2zm3.25 2v-2h4.5v2h-4.5zm7.75-5H9v2h4.5V8zm0-1V5h-2.25v2h2.25zm-2.25 4h2.25v2h-2.25v-2z"
 })));
 
-export default SvgFirewallRules;
+export default SvgFirewallRules;/* eslint-disable import/first */

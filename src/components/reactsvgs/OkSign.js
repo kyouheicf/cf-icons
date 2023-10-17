@@ -13,4 +13,4 @@ var SvgOkSign = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M6.977 9.527L5.002 7.466l-.722.693 2.685 2.805 4.748-4.8-.71-.703-4.026 4.067z"
 }));
 
-export default SvgOkSign;
+export default SvgOkSign;/* eslint-disable import/first */

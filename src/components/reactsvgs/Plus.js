@@ -11,4 +11,4 @@ var SvgPlus = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M14.003 8.466l-.006-1-5.5.031-.03-5.5-1 .006.03 5.5-5.5.03.006 1 5.5-.03.03 5.5 1-.006-.03-5.5 5.5-.03z"
 }));
 
-export default SvgPlus;
+export default SvgPlus;/* eslint-disable import/first */

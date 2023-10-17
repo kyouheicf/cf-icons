@@ -12,4 +12,4 @@ var SvgOk = props => /*#__PURE__*/React.createElement("svg", _extends({}, props,
   d: "M14.485 4.347l-8.324 8.625-4.648-4.877.724-.69 3.929 4.123 7.6-7.875.72.694z"
 }));
 
-export default SvgOk;
+export default SvgOk;/* eslint-disable import/first */

@@ -11,4 +11,4 @@ var SvgHamburger = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M14 3.5H2v1h12v-1zM14 7.5H2v1h12v-1zM14 11.5H2v1h12v-1z"
 }));
 
-export default SvgHamburger;
+export default SvgHamburger;/* eslint-disable import/first */

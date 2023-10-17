@@ -13,4 +13,4 @@ var SvgCalendar = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M5.25 9.39a.75.75 0 100-1.5.75.75 0 000 1.5zM5.25 11.835a.75.75 0 100-1.5.75.75 0 000 1.5zM10.75 9.39a.75.75 0 100-1.5.75.75 0 000 1.5zM10.75 10.335a.75.75 0 100 1.5.75.75 0 000-1.5zM8 9.39a.75.75 0 100-1.5.75.75 0 000 1.5zM8 11.835a.75.75 0 100-1.5.75.75 0 000 1.5z"
 }));
 
-export default SvgCalendar;
+export default SvgCalendar;/* eslint-disable import/first */

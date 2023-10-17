@@ -35,4 +35,4 @@ var SvgCloudflareDex = props => /*#__PURE__*/React.createElement("svg", _extends
   d: "M17.0773 48.3684C15.4325 48.3684 13.941 47.3908 13.3103 45.8824C12.6796 44.374 13.0291 42.6464 14.1881 41.4919C15.3558 40.3375 17.1029 39.9919 18.6285 40.6155C20.154 41.2391 21.1427 42.7054 21.1427 44.3403C21.1427 45.4105 20.7165 46.4302 19.9495 47.1886C19.1825 47.947 18.1512 48.3684 17.0688 48.3684H17.0773Z"
 }));
 
-export default SvgCloudflareDex;
+export default SvgCloudflareDex;/* eslint-disable import/first */

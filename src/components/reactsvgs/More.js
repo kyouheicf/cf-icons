@@ -11,4 +11,4 @@ var SvgMore = props => /*#__PURE__*/React.createElement("svg", _extends({}, prop
   d: "M3.05 9.585a1.584 1.584 0 11-.002-3.17 1.584 1.584 0 01.002 3.17zM8 9.585a1.584 1.584 0 110-3.17 1.584 1.584 0 010 3.17zM12.95 9.585a1.585 1.585 0 11.002-3.17 1.585 1.585 0 01-.002 3.17z"
 }));
 
-export default SvgMore;
+export default SvgMore;/* eslint-disable import/first */

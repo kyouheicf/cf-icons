@@ -13,4 +13,4 @@ var SvgSecurityBots = props => /*#__PURE__*/React.createElement("svg", _extends(
   d: "M22.677 38.058a3.325 3.325 0 0 0 3.321-3.328 3.325 3.325 0 0 0-3.321-3.328 3.325 3.325 0 0 0-3.321 3.328 3.325 3.325 0 0 0 3.321 3.328Zm18.646 0a3.325 3.325 0 0 0 3.321-3.328 3.325 3.325 0 0 0-3.321-3.328 3.325 3.325 0 0 0-3.321 3.328 3.325 3.325 0 0 0 3.321 3.328Zm-3 4.274H25.678v4h12.645v-4Z"
 }));
 
-export default SvgSecurityBots;
+export default SvgSecurityBots;/* eslint-disable import/first */

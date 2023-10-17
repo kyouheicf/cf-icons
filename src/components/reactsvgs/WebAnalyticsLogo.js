@@ -14,4 +14,4 @@ var SvgWebAnalyticsLogo = props => /*#__PURE__*/React.createElement("svg", _exte
   d: "M3.722 2.343A5 5 0 016.5 1.5a5.005 5.005 0 015 5 5 5 0 01-1.129 3.164l4.108 4.107-.707.708-4.108-4.108a4.999 4.999 0 11-5.942-8.028zM6.5 2.5a4 4 0 100 8 4 4 0 000-8z"
 }));
 
-export default SvgWebAnalyticsLogo;
+export default SvgWebAnalyticsLogo;/* eslint-disable import/first */

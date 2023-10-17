@@ -13,4 +13,4 @@ var SvgRevert = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M8 1.5A6.5 6.5 0 1014.5 8 6.507 6.507 0 008 1.5zm0 12A5.5 5.5 0 1113.5 8 5.507 5.507 0 018 13.5z"
 }));
 
-export default SvgRevert;
+export default SvgRevert;/* eslint-disable import/first */

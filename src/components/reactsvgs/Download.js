@@ -11,4 +11,4 @@ var SvgDownload = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M11.962 7.442l-.712-.7L8.36 9.69V1.975h-1V9.69L4.472 6.742l-.715.7L7.86 11.63l4.102-4.188zM13.357 12.998H2.477v1h10.88v-1z"
 }));
 
-export default SvgDownload;
+export default SvgDownload;/* eslint-disable import/first */

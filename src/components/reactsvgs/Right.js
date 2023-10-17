@@ -11,4 +11,4 @@ var SvgRight = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M4.99 14.503l-.707-.707L10.08 8 4.283 2.203l.707-.707L11.494 8 4.99 14.503z"
 }));
 
-export default SvgRight;
+export default SvgRight;/* eslint-disable import/first */

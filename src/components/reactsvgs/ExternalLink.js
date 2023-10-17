@@ -13,4 +13,4 @@ var SvgExternalLink = props => /*#__PURE__*/React.createElement("svg", _extends(
   d: "M12 12H4V4h4.5V3h-5l-.5.5v9l.5.5h9l.5-.5v-5h-1V12z"
 }));
 
-export default SvgExternalLink;
+export default SvgExternalLink;/* eslint-disable import/first */

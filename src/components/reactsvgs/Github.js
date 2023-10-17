@@ -14,4 +14,4 @@ var SvgGithub = props => /*#__PURE__*/React.createElement("svg", _extends({}, pr
   d: "M3 7.271l.002.067L3 7.26v.011zM14.5 7.271l-.001-.053v.136l.001-.083zM14.5 7.183l-.002-.06.002.095c-.002-.011 0-.023 0-.035z"
 }));
 
-export default SvgGithub;
+export default SvgGithub;/* eslint-disable import/first */

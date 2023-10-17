@@ -27,4 +27,4 @@ var SvgSpectrum = props => /*#__PURE__*/React.createElement("svg", _extends({}, 
   d: "M6.058 5.352l-.708.707 1.56 1.56.707-.708-1.56-1.56z"
 }));
 
-export default SvgSpectrum;
+export default SvgSpectrum;/* eslint-disable import/first */

@@ -11,4 +11,4 @@ var SvgCaretRight = props => /*#__PURE__*/React.createElement("svg", _extends({}
   d: "M4.488 1.85l.854-.353 6.15 6.15v.707l-6.15 6.15-.854-.354V1.85z"
 }));
 
-export default SvgCaretRight;
+export default SvgCaretRight;/* eslint-disable import/first */

@@ -13,4 +13,4 @@ var SvgOfficeBranch = props => /*#__PURE__*/React.createElement("svg", _extends(
   d: "M18 14h-4v4h4v-4Zm8 0h-4v4h4v-4Zm-8 8h-4v4h4v-4Zm8 0h-4v4h4v-4Zm-8 8h-4v4h4v-4Zm8 0h-4v4h4v-4Zm8-16h-4v4h4v-4Zm0 8h-4v4h4v-4Zm0 8h-4v4h4v-4Zm-16 8h-4v4h4v-4Zm8 0h-4v4h4v-4Zm8 0h-4v4h4v-4Zm16-10h-4v4h4v-4Zm0 8h-4v4h4v-4Zm0 8h-4v4h4v-4Z"
 }));
 
-export default SvgOfficeBranch;
+export default SvgOfficeBranch;/* eslint-disable import/first */

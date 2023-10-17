@@ -13,4 +13,4 @@ var SvgClipboard = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M7.978 5.172H4.643v1h3.335v-1zM11.357 7.261H4.643v1h6.714v-1zM11.357 9.351H4.643v1h6.714v-1z"
 }));
 
-export default SvgClipboard;
+export default SvgClipboard;/* eslint-disable import/first */

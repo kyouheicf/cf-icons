@@ -13,4 +13,4 @@ var SvgCreditCard = props => /*#__PURE__*/React.createElement("svg", _extends({}
   d: "M11.607 10.35a.75.75 0 100-1.5.75.75 0 000 1.5z"
 }));
 
-export default SvgCreditCard;
+export default SvgCreditCard;/* eslint-disable import/first */

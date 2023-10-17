@@ -12,4 +12,4 @@ var SvgMinus = props => /*#__PURE__*/React.createElement("svg", _extends({}, pro
   d: "M4.389 2.595A6.5 6.5 0 018 1.5 6.507 6.507 0 0114.5 8 6.5 6.5 0 114.389 2.595zM4 7.5h8v1H4v-1z"
 }));
 
-export default SvgMinus;
+export default SvgMinus;/* eslint-disable import/first */

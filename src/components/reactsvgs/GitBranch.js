@@ -18,4 +18,4 @@ var SvgGitBranch = props => /*#__PURE__*/React.createElement("svg", _extends({},
   d: "M0 0h16v16H0z"
 }))));
 
-export default SvgGitBranch;
+export default SvgGitBranch;/* eslint-disable import/first */

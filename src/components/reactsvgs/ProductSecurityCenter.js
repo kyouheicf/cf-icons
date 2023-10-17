@@ -13,4 +13,4 @@ var SvgProductSecurityCenter = props => /*#__PURE__*/React.createElement("svg", 
   d: "M14 1.468H2.033L1.513 2v2.275h-.368v2.5h.368v2.5h-.368v2.5h.368v2.147l.52.553H14l.52-.52V2L14 1.468zm-.52 11.967H2.553V2.5H13.48v10.935z"
 }));
 
-export default SvgProductSecurityCenter;
+export default SvgProductSecurityCenter;/* eslint-disable import/first */
