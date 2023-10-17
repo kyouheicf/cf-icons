@@ -87,6 +87,7 @@ function App() {
             </h1>
             <h3>from <a href="https://www.npmjs.com/package/@cloudflare/component-logo">@cloudflare/component-logo</a>, <a href="https://www.npmjs.com/package/@cloudflare/component-icon">@cloudflare/component-icon</a></h3>
             <h3>GitHub repo: <a href="https://github.com/kyouheicf/cf-icons">kyouheicf/cf-icons</a></h3>
+            <h5>SVG files are also accessible through URL like <br /> <a href='https://cf-icons.pages.dev/pages-logo.svg'>https://cf-icons.pages.dev/pages-logo.svg</a></h5>
             <div>
               <button onClick={e => downloadZip()}>
                 Save All SVG as ZIP
