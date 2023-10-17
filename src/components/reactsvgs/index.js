@@ -1,450 +1,298 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _Dlp = _interopRequireDefault(require("./Dlp"));
-
-var _AccountAnalyticsLogo = _interopRequireDefault(require("./AccountAnalyticsLogo"));
-
-var _AddMember = _interopRequireDefault(require("./AddMember"));
-
-var _Add = _interopRequireDefault(require("./Add"));
-
-var _ApiSecurity = _interopRequireDefault(require("./ApiSecurity"));
-
-var _Api = _interopRequireDefault(require("./Api"));
-
-var _Applications = _interopRequireDefault(require("./Applications"));
-
-var _ArrowExternalLink = _interopRequireDefault(require("./ArrowExternalLink"));
-
-var _Backward = _interopRequireDefault(require("./Backward"));
-
-var _Bolt = _interopRequireDefault(require("./Bolt"));
-
-var _Byoip = _interopRequireDefault(require("./Byoip"));
-
-var _Calendar = _interopRequireDefault(require("./Calendar"));
-
-var _Carbon = _interopRequireDefault(require("./Carbon"));
-
-var _CaretDoubleLeft = _interopRequireDefault(require("./CaretDoubleLeft"));
-
-var _CaretDoubleRight = _interopRequireDefault(require("./CaretDoubleRight"));
-
-var _CaretDown = _interopRequireDefault(require("./CaretDown"));
-
-var _CaretLeft = _interopRequireDefault(require("./CaretLeft"));
-
-var _CaretRight = _interopRequireDefault(require("./CaretRight"));
-
-var _CaretUp = _interopRequireDefault(require("./CaretUp"));
-
-var _CaseStudy = _interopRequireDefault(require("./CaseStudy"));
-
-var _Chart = _interopRequireDefault(require("./Chart"));
-
-var _Clipboard = _interopRequireDefault(require("./Clipboard"));
-
-var _CloudflareAccess = _interopRequireDefault(require("./CloudflareAccess"));
-
-var _CloudflareDex = _interopRequireDefault(require("./CloudflareDex"));
-
-var _CloudflareMagicWan = _interopRequireDefault(require("./CloudflareMagicWan"));
-
-var _CloudflareSecurityApplication = _interopRequireDefault(require("./CloudflareSecurityApplication"));
-
-var _CloudflareSecurityNetwork = _interopRequireDefault(require("./CloudflareSecurityNetwork"));
-
-var _CloudflareZeroTrust = _interopRequireDefault(require("./CloudflareZeroTrust"));
-
-var _Copy = _interopRequireDefault(require("./Copy"));
-
-var _CreditCard = _interopRequireDefault(require("./CreditCard"));
-
-var _D = _interopRequireDefault(require("./D1"));
-
-var _DdosAttack = _interopRequireDefault(require("./DdosAttack"));
-
-var _Discord = _interopRequireDefault(require("./Discord"));
-
-var _Discover = _interopRequireDefault(require("./Discover"));
-
-var _Documentation = _interopRequireDefault(require("./Documentation"));
-
-var _Download = _interopRequireDefault(require("./Download"));
-
-var _Drive = _interopRequireDefault(require("./Drive"));
-
-var _Edgeworker = _interopRequireDefault(require("./Edgeworker"));
-
-var _Edit = _interopRequireDefault(require("./Edit"));
-
-var _EmailForwarding = _interopRequireDefault(require("./EmailForwarding"));
-
-var _ExclamationSign = _interopRequireDefault(require("./ExclamationSign"));
-
-var _ExternalLink = _interopRequireDefault(require("./ExternalLink"));
-
-var _Eye = _interopRequireDefault(require("./Eye"));
-
-var _Facebook = _interopRequireDefault(require("./Facebook"));
-
-var _File = _interopRequireDefault(require("./File"));
-
-var _Filter = _interopRequireDefault(require("./Filter"));
-
-var _FirewallRules = _interopRequireDefault(require("./FirewallRules"));
-
-var _Flowchart = _interopRequireDefault(require("./Flowchart"));
-
-var _Folder = _interopRequireDefault(require("./Folder"));
-
-var _Forward = _interopRequireDefault(require("./Forward"));
-
-var _Funnel = _interopRequireDefault(require("./Funnel"));
-
-var _Gateway = _interopRequireDefault(require("./Gateway"));
-
-var _Gear = _interopRequireDefault(require("./Gear"));
-
-var _GitBranch = _interopRequireDefault(require("./GitBranch"));
-
-var _Github = _interopRequireDefault(require("./Github"));
-
-var _Globe = _interopRequireDefault(require("./Globe"));
-
-var _Hamburger = _interopRequireDefault(require("./Hamburger"));
-
-var _Help = _interopRequireDefault(require("./Help"));
-
-var _Home = _interopRequireDefault(require("./Home"));
-
-var _Image = _interopRequireDefault(require("./Image"));
-
-var _InfoSign = _interopRequireDefault(require("./InfoSign"));
-
-var _InternetBrowser = _interopRequireDefault(require("./InternetBrowser"));
-
-var _Key = _interopRequireDefault(require("./Key"));
-
-var _Leaf = _interopRequireDefault(require("./Leaf"));
-
-var _Left = _interopRequireDefault(require("./Left"));
-
-var _Link = _interopRequireDefault(require("./Link"));
-
-var _Linkedin = _interopRequireDefault(require("./Linkedin"));
-
-var _List = _interopRequireDefault(require("./List"));
-
-var _Lock = _interopRequireDefault(require("./Lock"));
-
-var _Logs = _interopRequireDefault(require("./Logs"));
-
-var _MagicFirewall = _interopRequireDefault(require("./MagicFirewall"));
-
-var _MagicTransitLogo = _interopRequireDefault(require("./MagicTransitLogo"));
-
-var _Mail = _interopRequireDefault(require("./Mail"));
-
-var _Minus = _interopRequireDefault(require("./Minus"));
-
-var _More = _interopRequireDefault(require("./More"));
-
-var _NetworkAnalyticsLogo = _interopRequireDefault(require("./NetworkAnalyticsLogo"));
-
-var _NetworkSecurity = _interopRequireDefault(require("./NetworkSecurity"));
-
-var _Network = _interopRequireDefault(require("./Network"));
-
-var _None = _interopRequireDefault(require("./None"));
-
-var _Notifications = _interopRequireDefault(require("./Notifications"));
-
-var _OfficeBranch = _interopRequireDefault(require("./OfficeBranch"));
-
-var _OkSign = _interopRequireDefault(require("./OkSign"));
-
-var _Ok = _interopRequireDefault(require("./Ok"));
-
-var _OptimizationScale = _interopRequireDefault(require("./OptimizationScale"));
-
-var _PagesLogo = _interopRequireDefault(require("./PagesLogo"));
-
-var _Pause = _interopRequireDefault(require("./Pause"));
-
-var _PlatformApps = _interopRequireDefault(require("./PlatformApps"));
-
-var _Plus = _interopRequireDefault(require("./Plus"));
-
-var _Printer = _interopRequireDefault(require("./Printer"));
-
-var _ProductSecurityCenter = _interopRequireDefault(require("./ProductSecurityCenter"));
-
-var _PubSub = _interopRequireDefault(require("./PubSub"));
-
-var _PullRequest = _interopRequireDefault(require("./PullRequest"));
-
-var _Queues = _interopRequireDefault(require("./Queues"));
-
-var _R = _interopRequireDefault(require("./R2"));
-
-var _Refresh = _interopRequireDefault(require("./Refresh"));
-
-var _RegistrarLogo = _interopRequireDefault(require("./RegistrarLogo"));
-
-var _ReliabilityDns = _interopRequireDefault(require("./ReliabilityDns"));
-
-var _ReliabilityLoadBalancer = _interopRequireDefault(require("./ReliabilityLoadBalancer"));
-
-var _Remove = _interopRequireDefault(require("./Remove"));
-
-var _Reorder = _interopRequireDefault(require("./Reorder"));
-
-var _ResizeHorizontal = _interopRequireDefault(require("./ResizeHorizontal"));
-
-var _Retarget = _interopRequireDefault(require("./Retarget"));
-
-var _Revert = _interopRequireDefault(require("./Revert"));
-
-var _Right = _interopRequireDefault(require("./Right"));
-
-var _Script = _interopRequireDefault(require("./Script"));
-
-var _Search = _interopRequireDefault(require("./Search"));
-
-var _SecurityBots = _interopRequireDefault(require("./SecurityBots"));
-
-var _SecurityWaf = _interopRequireDefault(require("./SecurityWaf"));
-
-var _Shield = _interopRequireDefault(require("./Shield"));
-
-var _Spectrum = _interopRequireDefault(require("./Spectrum"));
-
-var _Speech = _interopRequireDefault(require("./Speech"));
-
-var _StarOutline = _interopRequireDefault(require("./StarOutline"));
-
-var _Star = _interopRequireDefault(require("./Star"));
-
-var _Stream = _interopRequireDefault(require("./Stream"));
-
-var _Subtract = _interopRequireDefault(require("./Subtract"));
-
-var _TailWorker = _interopRequireDefault(require("./TailWorker"));
-
-var _Teams = _interopRequireDefault(require("./Teams"));
-
-var _Terraform = _interopRequireDefault(require("./Terraform"));
-
-var _Time = _interopRequireDefault(require("./Time"));
-
-var _Trace = _interopRequireDefault(require("./Trace"));
-
-var _TrafficAttackBrowser = _interopRequireDefault(require("./TrafficAttackBrowser"));
-
-var _Turnstile = _interopRequireDefault(require("./Turnstile"));
-
-var _Twitter = _interopRequireDefault(require("./Twitter"));
-
-var _TwoWay = _interopRequireDefault(require("./TwoWay"));
-
-var _UnlockOutline = _interopRequireDefault(require("./UnlockOutline"));
-
-var _Upload = _interopRequireDefault(require("./Upload"));
-
-var _UserMulti = _interopRequireDefault(require("./UserMulti"));
-
-var _UserOutline = _interopRequireDefault(require("./UserOutline"));
-
-var _User = _interopRequireDefault(require("./User"));
-
-var _Version = _interopRequireDefault(require("./Version"));
-
-var _WaitingRoom = _interopRequireDefault(require("./WaitingRoom"));
-
-var _WebAnalyticsLogo = _interopRequireDefault(require("./WebAnalyticsLogo"));
-
-var _Web = _interopRequireDefault(require("./Web3"));
-
-var _WorkersBundled = _interopRequireDefault(require("./WorkersBundled"));
-
-var _WorkersConstellation = _interopRequireDefault(require("./WorkersConstellation"));
-
-var _WorkersDurableObjects = _interopRequireDefault(require("./WorkersDurableObjects"));
-
-var _WorkersForPlatforms = _interopRequireDefault(require("./WorkersForPlatforms"));
-
-var _WorkersKv = _interopRequireDefault(require("./WorkersKv"));
-
-var _WorkersPages = _interopRequireDefault(require("./WorkersPages"));
-
-var _WorkersUnbound = _interopRequireDefault(require("./WorkersUnbound"));
-
-var _Wrangler = _interopRequireDefault(require("./Wrangler"));
-
-var _Wrench = _interopRequireDefault(require("./Wrench"));
-
-var _Youtube = _interopRequireDefault(require("./Youtube"));
-
-var _Zaraz = _interopRequireDefault(require("./Zaraz"));
-
-var _ZerotrustCasbLogo = _interopRequireDefault(require("./ZerotrustCasbLogo"));
-
-var _ZerotrustNetworksLogo = _interopRequireDefault(require("./ZerotrustNetworksLogo"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  dlp: _Dlp.default,
-  'account-analytics-logo': _AccountAnalyticsLogo.default,
-  'add-member': _AddMember.default,
-  add: _Add.default,
-  'api-security': _ApiSecurity.default,
-  api: _Api.default,
-  applications: _Applications.default,
-  'arrow-external-link': _ArrowExternalLink.default,
-  backward: _Backward.default,
-  bolt: _Bolt.default,
-  byoip: _Byoip.default,
-  calendar: _Calendar.default,
-  carbon: _Carbon.default,
-  'caret-double-left': _CaretDoubleLeft.default,
-  'caret-double-right': _CaretDoubleRight.default,
-  'caret-down': _CaretDown.default,
-  'caret-left': _CaretLeft.default,
-  'caret-right': _CaretRight.default,
-  'caret-up': _CaretUp.default,
-  'case-study': _CaseStudy.default,
-  chart: _Chart.default,
-  clipboard: _Clipboard.default,
-  'cloudflare-access': _CloudflareAccess.default,
-  'cloudflare-dex': _CloudflareDex.default,
-  'cloudflare-magic-wan': _CloudflareMagicWan.default,
-  'cloudflare-security-application': _CloudflareSecurityApplication.default,
-  'cloudflare-security-network': _CloudflareSecurityNetwork.default,
-  'cloudflare-zero-trust': _CloudflareZeroTrust.default,
-  copy: _Copy.default,
-  'credit-card': _CreditCard.default,
-  d1: _D.default,
-  'ddos-attack': _DdosAttack.default,
-  discord: _Discord.default,
-  discover: _Discover.default,
-  documentation: _Documentation.default,
-  download: _Download.default,
-  drive: _Drive.default,
-  edgeworker: _Edgeworker.default,
-  edit: _Edit.default,
-  'email-forwarding': _EmailForwarding.default,
-  'exclamation-sign': _ExclamationSign.default,
-  'external-link': _ExternalLink.default,
-  eye: _Eye.default,
-  facebook: _Facebook.default,
-  file: _File.default,
-  filter: _Filter.default,
-  'firewall-rules': _FirewallRules.default,
-  flowchart: _Flowchart.default,
-  folder: _Folder.default,
-  forward: _Forward.default,
-  funnel: _Funnel.default,
-  gateway: _Gateway.default,
-  gear: _Gear.default,
-  'git-branch': _GitBranch.default,
-  github: _Github.default,
-  globe: _Globe.default,
-  hamburger: _Hamburger.default,
-  help: _Help.default,
-  home: _Home.default,
-  image: _Image.default,
-  'info-sign': _InfoSign.default,
-  'internet-browser': _InternetBrowser.default,
-  key: _Key.default,
-  leaf: _Leaf.default,
-  left: _Left.default,
-  link: _Link.default,
-  linkedin: _Linkedin.default,
-  list: _List.default,
-  lock: _Lock.default,
-  logs: _Logs.default,
-  'magic-firewall': _MagicFirewall.default,
-  'magic-transit-logo': _MagicTransitLogo.default,
-  mail: _Mail.default,
-  minus: _Minus.default,
-  more: _More.default,
-  'network-analytics-logo': _NetworkAnalyticsLogo.default,
-  'network-security': _NetworkSecurity.default,
-  network: _Network.default,
-  none: _None.default,
-  notifications: _Notifications.default,
-  'office-branch': _OfficeBranch.default,
-  'ok-sign': _OkSign.default,
-  ok: _Ok.default,
-  'optimization-scale': _OptimizationScale.default,
-  'pages-logo': _PagesLogo.default,
-  pause: _Pause.default,
-  'platform-apps': _PlatformApps.default,
-  plus: _Plus.default,
-  printer: _Printer.default,
-  'product-security-center': _ProductSecurityCenter.default,
-  'pub-sub': _PubSub.default,
-  'pull-request': _PullRequest.default,
-  queues: _Queues.default,
-  r2: _R.default,
-  refresh: _Refresh.default,
-  'registrar-logo': _RegistrarLogo.default,
-  'reliability-dns': _ReliabilityDns.default,
-  'reliability-load-balancer': _ReliabilityLoadBalancer.default,
-  remove: _Remove.default,
-  reorder: _Reorder.default,
-  'resize-horizontal': _ResizeHorizontal.default,
-  retarget: _Retarget.default,
-  revert: _Revert.default,
-  right: _Right.default,
-  script: _Script.default,
-  search: _Search.default,
-  'security-bots': _SecurityBots.default,
-  'security-waf': _SecurityWaf.default,
-  shield: _Shield.default,
-  spectrum: _Spectrum.default,
-  speech: _Speech.default,
-  'star-outline': _StarOutline.default,
-  star: _Star.default,
-  stream: _Stream.default,
-  subtract: _Subtract.default,
-  'tail-worker': _TailWorker.default,
-  teams: _Teams.default,
-  terraform: _Terraform.default,
-  time: _Time.default,
-  trace: _Trace.default,
-  'traffic-attack-browser': _TrafficAttackBrowser.default,
-  turnstile: _Turnstile.default,
-  twitter: _Twitter.default,
-  'two-way': _TwoWay.default,
-  'unlock-outline': _UnlockOutline.default,
-  upload: _Upload.default,
-  'user-multi': _UserMulti.default,
-  'user-outline': _UserOutline.default,
-  user: _User.default,
-  version: _Version.default,
-  'waiting-room': _WaitingRoom.default,
-  'web-analytics-logo': _WebAnalyticsLogo.default,
-  web3: _Web.default,
-  'workers-bundled': _WorkersBundled.default,
-  'workers-constellation': _WorkersConstellation.default,
-  'workers-durable-objects': _WorkersDurableObjects.default,
-  'workers-for-platforms': _WorkersForPlatforms.default,
-  'workers-kv': _WorkersKv.default,
-  'workers-pages': _WorkersPages.default,
-  'workers-unbound': _WorkersUnbound.default,
-  wrangler: _Wrangler.default,
-  wrench: _Wrench.default,
-  youtube: _Youtube.default,
-  zaraz: _Zaraz.default,
-  'zerotrust-casb-logo': _ZerotrustCasbLogo.default,
-  'zerotrust-networks-logo': _ZerotrustNetworksLogo.default
+import Dlp from './Dlp';
+import AccountAnalyticsLogo from './AccountAnalyticsLogo';
+import AddMember from './AddMember';
+import Add from './Add';
+import ApiSecurity from './ApiSecurity';
+import Api from './Api';
+import Applications from './Applications';
+import ArrowExternalLink from './ArrowExternalLink';
+import Backward from './Backward';
+import Bolt from './Bolt';
+import Byoip from './Byoip';
+import Calendar from './Calendar';
+import Carbon from './Carbon';
+import CaretDoubleLeft from './CaretDoubleLeft';
+import CaretDoubleRight from './CaretDoubleRight';
+import CaretDown from './CaretDown';
+import CaretLeft from './CaretLeft';
+import CaretRight from './CaretRight';
+import CaretUp from './CaretUp';
+import CaseStudy from './CaseStudy';
+import Chart from './Chart';
+import Clipboard from './Clipboard';
+import CloudflareAccess from './CloudflareAccess';
+import CloudflareDex from './CloudflareDex';
+import CloudflareMagicWan from './CloudflareMagicWan';
+import CloudflareSecurityApplication from './CloudflareSecurityApplication';
+import CloudflareSecurityNetwork from './CloudflareSecurityNetwork';
+import CloudflareZeroTrust from './CloudflareZeroTrust';
+import Copy from './Copy';
+import CreditCard from './CreditCard';
+import D1 from './D1';
+import DdosAttack from './DdosAttack';
+import Discord from './Discord';
+import Discover from './Discover';
+import Documentation from './Documentation';
+import Download from './Download';
+import Drive from './Drive';
+import Edgeworker from './Edgeworker';
+import Edit from './Edit';
+import EmailForwarding from './EmailForwarding';
+import ExclamationSign from './ExclamationSign';
+import ExternalLink from './ExternalLink';
+import Eye from './Eye';
+import Facebook from './Facebook';
+import File from './File';
+import Filter from './Filter';
+import FirewallRules from './FirewallRules';
+import Flowchart from './Flowchart';
+import Folder from './Folder';
+import Forward from './Forward';
+import Funnel from './Funnel';
+import Gateway from './Gateway';
+import Gear from './Gear';
+import GitBranch from './GitBranch';
+import Github from './Github';
+import Globe from './Globe';
+import Hamburger from './Hamburger';
+import Help from './Help';
+import Home from './Home';
+import Image from './Image';
+import InfoSign from './InfoSign';
+import InternetBrowser from './InternetBrowser';
+import Key from './Key';
+import Leaf from './Leaf';
+import Left from './Left';
+import Link from './Link';
+import Linkedin from './Linkedin';
+import List from './List';
+import Lock from './Lock';
+import Logs from './Logs';
+import MagicFirewall from './MagicFirewall';
+import MagicTransitLogo from './MagicTransitLogo';
+import Mail from './Mail';
+import Minus from './Minus';
+import More from './More';
+import NetworkAnalyticsLogo from './NetworkAnalyticsLogo';
+import NetworkSecurity from './NetworkSecurity';
+import Network from './Network';
+import None from './None';
+import Notifications from './Notifications';
+import OfficeBranch from './OfficeBranch';
+import OkSign from './OkSign';
+import Ok from './Ok';
+import OptimizationScale from './OptimizationScale';
+import PagesLogo from './PagesLogo';
+import Pause from './Pause';
+import PlatformApps from './PlatformApps';
+import Plus from './Plus';
+import Printer from './Printer';
+import Processing from './Processing';
+import ProductSecurityCenter from './ProductSecurityCenter';
+import PubSub from './PubSub';
+import PullRequest from './PullRequest';
+import Queues from './Queues';
+import R2 from './R2';
+import Refresh from './Refresh';
+import RegistrarLogo from './RegistrarLogo';
+import ReliabilityDns from './ReliabilityDns';
+import ReliabilityLoadBalancer from './ReliabilityLoadBalancer';
+import Remove from './Remove';
+import Reorder from './Reorder';
+import ResizeHorizontal from './ResizeHorizontal';
+import Retarget from './Retarget';
+import Revert from './Revert';
+import Right from './Right';
+import Script from './Script';
+import Search from './Search';
+import SecurityBots from './SecurityBots';
+import SecurityWaf from './SecurityWaf';
+import Shield from './Shield';
+import Spectrum from './Spectrum';
+import Speech from './Speech';
+import StarOutline from './StarOutline';
+import Star from './Star';
+import Stream from './Stream';
+import Subtract from './Subtract';
+import TailWorker from './TailWorker';
+import Teams from './Teams';
+import Terraform from './Terraform';
+import Time from './Time';
+import Timer from './Timer';
+import Trace from './Trace';
+import TrafficAttackBrowser from './TrafficAttackBrowser';
+import Turnstile from './Turnstile';
+import Twitter from './Twitter';
+import TwoWay from './TwoWay';
+import UnlockOutline from './UnlockOutline';
+import Upload from './Upload';
+import UserMulti from './UserMulti';
+import UserOutline from './UserOutline';
+import User from './User';
+import Version from './Version';
+import WaitingRoom from './WaitingRoom';
+import WebAnalyticsLogo from './WebAnalyticsLogo';
+import Web3 from './Web3';
+import WorkersBundled from './WorkersBundled';
+import WorkersConstellation from './WorkersConstellation';
+import WorkersDurableObjects from './WorkersDurableObjects';
+import WorkersForPlatforms from './WorkersForPlatforms';
+import WorkersKv from './WorkersKv';
+import WorkersPages from './WorkersPages';
+import WorkersUnbound from './WorkersUnbound';
+import Wrangler from './Wrangler';
+import Wrench from './Wrench';
+import Youtube from './Youtube';
+import Zaraz from './Zaraz';
+import ZerotrustCasbLogo from './ZerotrustCasbLogo';
+import ZerotrustNetworksLogo from './ZerotrustNetworksLogo';
+export default {
+  dlp: Dlp,
+  'account-analytics-logo': AccountAnalyticsLogo,
+  'add-member': AddMember,
+  add: Add,
+  'api-security': ApiSecurity,
+  api: Api,
+  applications: Applications,
+  'arrow-external-link': ArrowExternalLink,
+  backward: Backward,
+  bolt: Bolt,
+  byoip: Byoip,
+  calendar: Calendar,
+  carbon: Carbon,
+  'caret-double-left': CaretDoubleLeft,
+  'caret-double-right': CaretDoubleRight,
+  'caret-down': CaretDown,
+  'caret-left': CaretLeft,
+  'caret-right': CaretRight,
+  'caret-up': CaretUp,
+  'case-study': CaseStudy,
+  chart: Chart,
+  clipboard: Clipboard,
+  'cloudflare-access': CloudflareAccess,
+  'cloudflare-dex': CloudflareDex,
+  'cloudflare-magic-wan': CloudflareMagicWan,
+  'cloudflare-security-application': CloudflareSecurityApplication,
+  'cloudflare-security-network': CloudflareSecurityNetwork,
+  'cloudflare-zero-trust': CloudflareZeroTrust,
+  copy: Copy,
+  'credit-card': CreditCard,
+  d1: D1,
+  'ddos-attack': DdosAttack,
+  discord: Discord,
+  discover: Discover,
+  documentation: Documentation,
+  download: Download,
+  drive: Drive,
+  edgeworker: Edgeworker,
+  edit: Edit,
+  'email-forwarding': EmailForwarding,
+  'exclamation-sign': ExclamationSign,
+  'external-link': ExternalLink,
+  eye: Eye,
+  facebook: Facebook,
+  file: File,
+  filter: Filter,
+  'firewall-rules': FirewallRules,
+  flowchart: Flowchart,
+  folder: Folder,
+  forward: Forward,
+  funnel: Funnel,
+  gateway: Gateway,
+  gear: Gear,
+  'git-branch': GitBranch,
+  github: Github,
+  globe: Globe,
+  hamburger: Hamburger,
+  help: Help,
+  home: Home,
+  image: Image,
+  'info-sign': InfoSign,
+  'internet-browser': InternetBrowser,
+  key: Key,
+  leaf: Leaf,
+  left: Left,
+  link: Link,
+  linkedin: Linkedin,
+  list: List,
+  lock: Lock,
+  logs: Logs,
+  'magic-firewall': MagicFirewall,
+  'magic-transit-logo': MagicTransitLogo,
+  mail: Mail,
+  minus: Minus,
+  more: More,
+  'network-analytics-logo': NetworkAnalyticsLogo,
+  'network-security': NetworkSecurity,
+  network: Network,
+  none: None,
+  notifications: Notifications,
+  'office-branch': OfficeBranch,
+  'ok-sign': OkSign,
+  ok: Ok,
+  'optimization-scale': OptimizationScale,
+  'pages-logo': PagesLogo,
+  pause: Pause,
+  'platform-apps': PlatformApps,
+  plus: Plus,
+  printer: Printer,
+  processing: Processing,
+  'product-security-center': ProductSecurityCenter,
+  'pub-sub': PubSub,
+  'pull-request': PullRequest,
+  queues: Queues,
+  r2: R2,
+  refresh: Refresh,
+  'registrar-logo': RegistrarLogo,
+  'reliability-dns': ReliabilityDns,
+  'reliability-load-balancer': ReliabilityLoadBalancer,
+  remove: Remove,
+  reorder: Reorder,
+  'resize-horizontal': ResizeHorizontal,
+  retarget: Retarget,
+  revert: Revert,
+  right: Right,
+  script: Script,
+  search: Search,
+  'security-bots': SecurityBots,
+  'security-waf': SecurityWaf,
+  shield: Shield,
+  spectrum: Spectrum,
+  speech: Speech,
+  'star-outline': StarOutline,
+  star: Star,
+  stream: Stream,
+  subtract: Subtract,
+  'tail-worker': TailWorker,
+  teams: Teams,
+  terraform: Terraform,
+  time: Time,
+  timer: Timer,
+  trace: Trace,
+  'traffic-attack-browser': TrafficAttackBrowser,
+  turnstile: Turnstile,
+  twitter: Twitter,
+  'two-way': TwoWay,
+  'unlock-outline': UnlockOutline,
+  upload: Upload,
+  'user-multi': UserMulti,
+  'user-outline': UserOutline,
+  user: User,
+  version: Version,
+  'waiting-room': WaitingRoom,
+  'web-analytics-logo': WebAnalyticsLogo,
+  web3: Web3,
+  'workers-bundled': WorkersBundled,
+  'workers-constellation': WorkersConstellation,
+  'workers-durable-objects': WorkersDurableObjects,
+  'workers-for-platforms': WorkersForPlatforms,
+  'workers-kv': WorkersKv,
+  'workers-pages': WorkersPages,
+  'workers-unbound': WorkersUnbound,
+  wrangler: Wrangler,
+  wrench: Wrench,
+  youtube: Youtube,
+  zaraz: Zaraz,
+  'zerotrust-casb-logo': ZerotrustCasbLogo,
+  'zerotrust-networks-logo': ZerotrustNetworksLogo
 };
-exports.default = _default;
