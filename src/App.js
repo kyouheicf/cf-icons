@@ -4,13 +4,15 @@ const iconTypes = Object.keys(IconComponents)
 console.log(iconTypes)
 import './App.css';
 import { Icon } from '@cloudflare/component-icon';
-import { Logo, LogoInline, LogoCloud, LogoHeader } from '@cloudflare/component-logo';
+import { Logo, LogoInline, LogoCloud } from '@cloudflare/component-logo';
 //import IconComponent from './components/IconComponent';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider as ReduxProvider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import { reducer as formReducer } from 'redux-form';
 import { StyleProvider, createRenderer } from '@cloudflare/style-provider';
+import * as JSZip from 'jszip';
+import { saveAs } from 'file-saver';
 
 const renderer = createRenderer({
   dev: process.env.NODE_ENV === 'development',
@@ -32,7 +34,7 @@ function App() {
   function downloadSvg(svgNode, filename) {
     const svgText = new XMLSerializer().serializeToString(svgNode);
     var svgBlob
-    if (filename !== 'logo' && filename !== 'logo-inline' && filename !== 'logo-cloud' && filename !== 'logo-header') {
+    if (filename !== 'logo' && filename !== 'logo-inline' && filename !== 'logo-cloud') {
       console.log(svgText.replace(/^<svg/, '<svg fill="#0051c3"'));
       svgBlob = new Blob([svgText.replace(/^<svg/, '<svg fill="#0051c3"')], { type: 'image/svg+xml' });
     } else {
@@ -52,6 +54,29 @@ function App() {
     URL.revokeObjectURL(svgUrl);
   }
 
+  function downloadZip() {
+    let zip = new JSZip();
+    let svgText = '';
+    iconTypes.push('logo', 'logo-inline', 'logo-cloud');
+    iconTypes.map((iconType) => {
+      svgText = new XMLSerializer().serializeToString(document.getElementById(iconType).children[0]);
+
+      if (iconType !== 'logo' && iconType !== 'logo-inline' && iconType !== 'logo-cloud') {
+        //console.log(svgText.replace(/^<svg/, '<svg fill="#0051c3"'));
+        svgText = svgText.replace(/^<svg/, '<svg fill="#0051c3"');
+      } else if (iconType === 'logo' || iconType === 'logo-cloud') {
+        //console.log(svgText);
+        svgText = new XMLSerializer().serializeToString(document.getElementById(iconType).children[0].children[0]);
+      }
+      zip.file(`${iconType}.svg`, svgText);
+    })
+
+    zip.generateAsync({ type: "blob" })
+      .then(function (blob) {
+        saveAs(blob, "cf-icons-svg.zip");
+      });
+  }
+
   return (
     <ReduxProvider store={store}>
       <MemoryRouter>
@@ -62,6 +87,11 @@ function App() {
             </h1>
             <h3>from <a href="https://www.npmjs.com/package/@cloudflare/component-logo">@cloudflare/component-logo</a>, <a href="https://www.npmjs.com/package/@cloudflare/component-icon">@cloudflare/component-icon</a></h3>
             <h3>GitHub repo: <a href="https://github.com/kyouheicf/cf-icons">kyouheicf/cf-icons</a></h3>
+            <div>
+              <button onClick={e => downloadZip()}>
+                Save All SVG as ZIP
+              </button><br /><br />
+            </div>
             <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
               <div class="item" key='logo'>
                 <div id='logo'>
@@ -84,14 +114,6 @@ function App() {
                   <LogoCloud /></div><br />
                 <code>logo-cloud</code><br />
                 <button value='logo-cloud' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
-                  Save as SVG
-                </button>
-              </div>
-              <div class="item" key='logo-header'>
-                <div id='logo-header'>
-                  <LogoHeader /></div><br />
-                <code>logo-header (responsive)</code><br />
-                <button value='logo-header' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
                   Save as SVG
                 </button>
               </div>
