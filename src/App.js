@@ -13,6 +13,11 @@ import { reducer as formReducer } from 'redux-form';
 import { StyleProvider, createRenderer } from '@cloudflare/style-provider';
 import * as JSZip from 'jszip';
 import { saveAs } from 'file-saver';
+import RouterIcon from './router.svg';
+import DatabaseIcon from './server-database.svg';
+import InternetIcon from './internet-globe.svg';
+import CloudIcon from './cloud-internet.svg';
+import OriginIcon from './server-origin.svg';
 
 const renderer = createRenderer({
   dev: process.env.NODE_ENV === 'development',
@@ -85,9 +90,9 @@ function App() {
             <h1>
               The Cloudflare Icons library
             </h1>
-            <h3>from <a href="https://www.npmjs.com/package/@cloudflare/component-logo">@cloudflare/component-logo</a>, <a href="https://www.npmjs.com/package/@cloudflare/component-icon">@cloudflare/component-icon</a></h3>
             <h3>GitHub repo: <a href="https://github.com/kyouheicf/cf-icons">kyouheicf/cf-icons</a></h3>
-            <h5>SVG files are also accessible through URL like <br /> <a href='https://cf-icons.pages.dev/pages-logo.svg'>https://cf-icons.pages.dev/pages-logo.svg</a></h5>
+            <h3>SVG files are also accessible through URL like <br /> <a href='https://cf-icons.pages.dev/pages-logo.svg'>https://cf-icons.pages.dev/pages-logo.svg</a></h3>
+            <h5>from <a href="https://www.npmjs.com/package/@cloudflare/component-logo">@cloudflare/component-logo</a>, <a href="https://www.npmjs.com/package/@cloudflare/component-icon">@cloudflare/component-icon</a></h5>
             <div>
               <button onClick={e => downloadZip()}>
                 Save All SVG as ZIP
@@ -129,6 +134,60 @@ function App() {
                   </div>
                 ))
               }
+            </div>
+            <h5>from <a href="https://github.com/cloudflare/cloudflare-docs/tree/production/assets/images/reference-architecture">cloudflare-docs/assets/images/reference-architecture</a></h5>
+            <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
+              <div class="item" key='router'>
+                <div id='router'>
+                  <img src={RouterIcon} width='48' height='48' /></div><br />
+                <code>router</code><br />
+                <button value='router' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
+                  Save as SVG
+                </button>
+              </div>
+              <div class="item" key='server-database'>
+                <div id='server-database'>
+                  <img src={DatabaseIcon} width='48' height='48' /></div><br />
+                <code>server-database</code><br />
+                <button value='server-database' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
+                  Save as SVG
+                </button>
+              </div>
+              <div class="item" key='internet-globe'>
+                <div id='internet-globe'>
+                  <img src={InternetIcon} width='48' height='48' /></div><br />
+                <code>internet-globe</code><br />
+                <button value='internet-globe' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
+                  Save as SVG
+                </button>
+              </div>
+              <div class="item" key='cloud-internet'>
+                <div id='cloud-internet'>
+                  <img src={CloudIcon} width='48' height='48' /></div><br />
+                <code>cloud-internet</code><br />
+                <button value='cloud-internet' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
+                  Save as SVG
+                </button>
+              </div>
+              <div class="item" key='server-origin'>
+                <div id='server-origin'>
+                  <img src={OriginIcon} width='48' height='48' /></div><br />
+                <code>server-origin</code><br />
+                <button value='server-origin' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
+                  Save as SVG
+                </button>
+              </div>
+            </div>
+            <h5>from <a href="https://github.com/cloudflare/cloudflare-docs/tree/production/data">cloudflare-docs/data/product.yml</a></h5>
+            <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
+              <div class="item" key='router'>
+                <div id='router'>
+                  <img src={RouterIcon} width='48' height='48' /></div><br />
+                <code>router</code><br />
+                <button value='router' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
+                  Save as SVG
+                </button>
+              </div>
             </div>
           </div>
         </StyleProvider>
