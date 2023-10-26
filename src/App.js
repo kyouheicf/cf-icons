@@ -18,6 +18,87 @@ import DatabaseIcon from './server-database.svg';
 import InternetIcon from './internet-globe.svg';
 import CloudIcon from './cloud-internet.svg';
 import OriginIcon from './server-origin.svg';
+import React, { useState, useEffect, useRef } from 'react';
+
+const DocsIcons = [
+  '1.1.1.1',
+  'ai-gateway',
+  'ai',
+  'analytics',
+  'api-shield',
+  'api',
+  'apps',
+  'argo-smart-routing',
+  'automatic-platform-optimization',
+  'bots',
+  'browser-rendering',
+  'byoip',
+  'cache',
+  'china-network',
+  'client-ip-geolocation',
+  'cloudflare-for-platforms',
+  'cloudflare-one',
+  'constellation',
+  'd1',
+  'data-localization',
+  'ddos-protection',
+  'dmarc-management',
+  'dns',
+  'durable-objects',
+  'email-routing',
+  'email-security',
+  'firewall',
+  'fundamentals',
+  'health-checks',
+  'hyperdrive',
+  'images',
+  'kv',
+  'learning-paths',
+  'load-balancing',
+  'logs',
+  'magic-firewall',
+  'magic-network-monitoring',
+  'magic-transit',
+  'magic-wan',
+  'network-error-logging',
+  'network-interconnect',
+  'notifications',
+  'page-shield',
+  'pages',
+  'privacy-gateway',
+  'pub-sub',
+  'pulumi',
+  'queues',
+  'r2',
+  'radar',
+  'railgun',
+  'randomness-beacon',
+  'reference-architecture',
+  'registrar',
+  'rules',
+  'ruleset-engine',
+  'security-center',
+  'spectrum',
+  'speed',
+  'ssl',
+  'stream',
+  'style-guide',
+  'support',
+  'tenant',
+  'terraform',
+  'time-services',
+  'turnstile',
+  'vectorize',
+  'version-management',
+  'waf',
+  'waiting-room',
+  'warp-client',
+  'web3',
+  'workers-ai',
+  'workers',
+  'zaraz'
+];
+console.log(DocsIcons)
 
 const renderer = createRenderer({
   dev: process.env.NODE_ENV === 'development',
@@ -141,53 +222,38 @@ function App() {
                 <div id='router'>
                   <img src={RouterIcon} width='48' height='48' /></div><br />
                 <code>router</code><br />
-                <button value='router' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
-                  Save as SVG
-                </button>
               </div>
               <div class="item" key='server-database'>
                 <div id='server-database'>
                   <img src={DatabaseIcon} width='48' height='48' /></div><br />
                 <code>server-database</code><br />
-                <button value='server-database' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
-                  Save as SVG
-                </button>
               </div>
               <div class="item" key='internet-globe'>
                 <div id='internet-globe'>
                   <img src={InternetIcon} width='48' height='48' /></div><br />
                 <code>internet-globe</code><br />
-                <button value='internet-globe' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
-                  Save as SVG
-                </button>
               </div>
               <div class="item" key='cloud-internet'>
                 <div id='cloud-internet'>
                   <img src={CloudIcon} width='48' height='48' /></div><br />
                 <code>cloud-internet</code><br />
-                <button value='cloud-internet' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
-                  Save as SVG
-                </button>
               </div>
               <div class="item" key='server-origin'>
                 <div id='server-origin'>
                   <img src={OriginIcon} width='48' height='48' /></div><br />
                 <code>server-origin</code><br />
-                <button value='server-origin' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
-                  Save as SVG
-                </button>
               </div>
             </div>
             <h5>from <a href="https://github.com/cloudflare/cloudflare-docs/tree/production/data">cloudflare-docs/data/product.yml</a></h5>
             <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
-              <div class="item" key='router'>
-                <div id='router'>
-                  <img src={RouterIcon} width='48' height='48' /></div><br />
-                <code>router</code><br />
-                <button value='router' onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
-                  Save as SVG
-                </button>
-              </div>
+              {
+                DocsIcons.map(docsIcon => (
+                  <div class="item" key={docsIcon} >
+                    <div id={docsIcon}><img src={"https://cf-icons.pages.dev/" + docsIcon + ".svg"} width='48' height='48' /></div><br />
+                    <code>{docsIcon} </code><br />
+                  </div>
+                ))
+              }
             </div>
           </div>
         </StyleProvider>

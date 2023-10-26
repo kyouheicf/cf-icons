@@ -24,6 +24,21 @@ cp -n node_modules/@cloudflare/component-icon/es/reactsvgs/* src/components/reac
 sed -i "" -e '1s/^/\/\* eslint-disable import\/first \*\/\n/' src/components/reactsvgs/*.js
 ```
 
+To upload SVG into Cloudflare Images for external URL reference
+
+```
+# cd TO_SVG_FILES_DIR
+ls -1 | while read line
+do
+  curl -vvv --request POST \
+    https://api.cloudflare.com/client/v4/accounts/$ACCOUNT_ID/images/v1 \
+    -H "X-Auth-Email: $EMAIL" \
+    -H "X-Auth-Key: $APIKEY" \
+    --form 'file=@./'$line'' \
+    --form 'id='$(basename $line .svg)''
+done
+```
+
 To pull the latect icons data from cloudflare-docs, use the following command
 
 ```shell:
@@ -35,7 +50,7 @@ grep "logo:" -rl data| sed 'p;s/\.yml/\.svg/' | xargs -n2 mv
 # Delete other files
 cd data && ls | grep -v -E '.svg' | xargs rm -r && cd ..
 # Replace with SVG content
-sed -i "" -n 's/logo: //p' data/*.svg
+sed -i "" -n 's/logo: </</p' data/*.svg
 # Remove other tag
 sed -i "" -e 's/<defs>.*<\/defs>//g' data/*.svg
 sed -i "" -e 's/<\/linearGradient><\/defs>//g' data/*.svg
@@ -45,6 +60,12 @@ sed -i "" -e 's/<svg/<svg fill="#0051c3"/g' data/*.svg
 # Remove width height
 sed -i "" -e 's/ width="[^"]*"//g' data/*.svg
 sed -i "" -e 's/ height="[^"]*"//g' data/*.svg
+
+# Get filename array
+ls -1 | sed -e 's/\.svg$//' | while read line
+do
+  echo "'${line}'," 
+done | pbcopy
 ```
 
 To upload SVG into Cloudflare Images for external URL reference
