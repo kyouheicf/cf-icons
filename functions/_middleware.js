@@ -8,8 +8,8 @@ const svgServe = async ({ request, env }) => {
     console.log(`extension === ${extension}`)
 
     if (extension === 'svg') {
-        console.log(`Images URL === https://imagedelivery.net/${env.ACCOUNT_HASH}/${filename}/${extension}`)
-        return fetch(`https://imagedelivery.net/${env.ACCOUNT_HASH}/${filename}/${extension}`)
+        console.log(`Images URL === https://imagedelivery.net/${env.ACCOUNT_HASH}/${filename.join('.')}/${extension}`)
+        return fetch(`https://imagedelivery.net/${env.ACCOUNT_HASH}/${filename.join('.')}/${extension}`)
     }
 
     return env.ASSETS.fetch(url)
