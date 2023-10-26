@@ -3,9 +3,11 @@ const svgServe = async ({ request, env }) => {
     const file = url.pathname.split('/').reverse()[0]
     const filename = file.split('.').pop()
     const extension = file.split('.').reverse()[0]
-    console.log(extension)
+    console.log(`filename === ${filename}`)
+    console.log(`extension === ${extension}`)
 
     if (extension === 'svg') {
+        console.log(`Images URL === https://imagedelivery.net/${env.ACCOUNT_HASH}/${filename}/${extension}`)
         return fetch(`https://imagedelivery.net/${env.ACCOUNT_HASH}/${filename}/${extension}`)
     }
 
