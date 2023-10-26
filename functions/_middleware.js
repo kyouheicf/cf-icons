@@ -1,7 +1,8 @@
 const svgServe = async ({ request, env }) => {
     const url = new URL(request.url)
     const file = url.pathname.split('/').reverse()[0]
-    const filename = file.split('.').splice(-1)
+    let filename = file.split('.').splice(-1)
+    filename.splice(-1)
     const extension = file.split('.').reverse()[0]
     console.log(`filename === ${filename}`)
     console.log(`extension === ${extension}`)
