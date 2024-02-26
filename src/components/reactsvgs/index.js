@@ -11,7 +11,6 @@ import Backward from './Backward';
 import Bolt from './Bolt';
 import Byoip from './Byoip';
 import Calendar from './Calendar';
-import Calls from './Calls';
 import Carbon from './Carbon';
 import CaretDoubleLeft from './CaretDoubleLeft';
 import CaretDoubleRight from './CaretDoubleRight';
@@ -28,15 +27,10 @@ import CloudflareMagicWan from './CloudflareMagicWan';
 import CloudflareSecurityApplication from './CloudflareSecurityApplication';
 import CloudflareSecurityNetwork from './CloudflareSecurityNetwork';
 import CloudflareZeroTrust from './CloudflareZeroTrust';
-import Code from './Code';
 import Copy from './Copy';
 import CreditCard from './CreditCard';
 import D1 from './D1';
 import DdosAttack from './DdosAttack';
-import DeviceDesktop from './DeviceDesktop';
-import DeviceLaptop from './DeviceLaptop';
-import DeviceMobile from './DeviceMobile';
-import DeviceTablet from './DeviceTablet';
 import Discord from './Discord';
 import Discover from './Discover';
 import Documentation from './Documentation';
@@ -46,7 +40,6 @@ import Edgeworker from './Edgeworker';
 import Edit from './Edit';
 import EmailForwarding from './EmailForwarding';
 import ExclamationSign from './ExclamationSign';
-import Expand from './Expand';
 import ExternalLink from './ExternalLink';
 import Eye from './Eye';
 import Facebook from './Facebook';
@@ -57,7 +50,6 @@ import Flowchart from './Flowchart';
 import Folder from './Folder';
 import Forward from './Forward';
 import Funnel from './Funnel';
-import Garbage from './Garbage';
 import Gateway from './Gateway';
 import Gear from './Gear';
 import GitBranch from './GitBranch';
@@ -116,7 +108,6 @@ import Script from './Script';
 import Search from './Search';
 import SecurityBots from './SecurityBots';
 import SecurityWaf from './SecurityWaf';
-import ServerOrigin from './ServerOrigin';
 import Shield from './Shield';
 import Spectrum from './Spectrum';
 import Speech from './Speech';
@@ -154,9 +145,9 @@ import Wrangler from './Wrangler';
 import Wrench from './Wrench';
 import Youtube from './Youtube';
 import Zaraz from './Zaraz';
-import ZeroTrustRiskScoring from './ZeroTrustRiskScoring';
 import ZerotrustCasbLogo from './ZerotrustCasbLogo';
 import ZerotrustNetworksLogo from './ZerotrustNetworksLogo';
+import ZerotrustRiskScoreLogo from './ZerotrustRiskScoreLogo';
 export default {
   dlp: Dlp,
   'account-analytics-logo': AccountAnalyticsLogo,
@@ -170,7 +161,6 @@ export default {
   bolt: Bolt,
   byoip: Byoip,
   calendar: Calendar,
-  calls: Calls,
   carbon: Carbon,
   'caret-double-left': CaretDoubleLeft,
   'caret-double-right': CaretDoubleRight,
@@ -187,15 +177,10 @@ export default {
   'cloudflare-security-application': CloudflareSecurityApplication,
   'cloudflare-security-network': CloudflareSecurityNetwork,
   'cloudflare-zero-trust': CloudflareZeroTrust,
-  code: Code,
   copy: Copy,
   'credit-card': CreditCard,
   d1: D1,
   'ddos-attack': DdosAttack,
-  'device-desktop': DeviceDesktop,
-  'device-laptop': DeviceLaptop,
-  'device-mobile': DeviceMobile,
-  'device-tablet': DeviceTablet,
   discord: Discord,
   discover: Discover,
   documentation: Documentation,
@@ -205,7 +190,6 @@ export default {
   edit: Edit,
   'email-forwarding': EmailForwarding,
   'exclamation-sign': ExclamationSign,
-  expand: Expand,
   'external-link': ExternalLink,
   eye: Eye,
   facebook: Facebook,
@@ -216,7 +200,6 @@ export default {
   folder: Folder,
   forward: Forward,
   funnel: Funnel,
-  garbage: Garbage,
   gateway: Gateway,
   gear: Gear,
   'git-branch': GitBranch,
@@ -275,7 +258,6 @@ export default {
   search: Search,
   'security-bots': SecurityBots,
   'security-waf': SecurityWaf,
-  'server-origin': ServerOrigin,
   shield: Shield,
   spectrum: Spectrum,
   speech: Speech,
@@ -313,7 +295,7 @@ export default {
   wrench: Wrench,
   youtube: Youtube,
   zaraz: Zaraz,
-  'zero-trust-risk-scoring': ZeroTrustRiskScoring,
   'zerotrust-casb-logo': ZerotrustCasbLogo,
-  'zerotrust-networks-logo': ZerotrustNetworksLogo
+  'zerotrust-networks-logo': ZerotrustNetworksLogo,
+  'zerotrust-risk-score-logo': ZerotrustRiskScoreLogo
 };
