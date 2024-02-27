@@ -5,7 +5,6 @@ import * as React from 'react';
 
 var SvgZeroTrustRiskScoring = props => /*#__PURE__*/React.createElement("svg", _extends({}, props, {
   viewBox: "0 0 64 64",
-  fill: "none",
   xmlns: "http://www.w3.org/2000/svg",
   "aria-hidden": !props['aria-label'],
   focusable: "false"
