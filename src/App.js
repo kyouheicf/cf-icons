@@ -1,7 +1,9 @@
 /* eslint-disable import/first */
-import IconComponents from './components/reactsvgs/index.js'
-const iconTypes = Object.keys(IconComponents)
+import IconComponents from './components/reactsvgs/index'
+//import type { IconType } from '@cloudflare/component-icon';
+const iconTypes: IconType = Object.keys(IconComponents)
 console.log(iconTypes)
+console.log(typeof (iconTypes))
 import './App.css';
 import { Icon } from '@cloudflare/component-icon';
 import { Logo, LogoInline, LogoCloud } from '@cloudflare/component-logo';
@@ -175,8 +177,8 @@ function App() {
                 Save All SVG as ZIP
               </button><br /><br />
             </div>
-            <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
-              <div class="item" key='logo'>
+            <div className="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
+              <div className="item" key='logo'>
                 <div id='logo'>
                   <Logo /></div><br />
                 <code>logo</code><br />
@@ -184,7 +186,7 @@ function App() {
                   Save as SVG
                 </button>
               </div>
-              <div class="item" key='logo-inline'>
+              <div className="item" key='logo-inline'>
                 <div id='logo-inline'>
                   <LogoInline /></div><br />
                 <code>logo-inline</code><br />
@@ -192,7 +194,7 @@ function App() {
                   Save as SVG
                 </button>
               </div>
-              <div class="item" key='logo-cloud'>
+              <div className="item" key='logo-cloud'>
                 <div id='logo-cloud'>
                   <LogoCloud /></div><br />
                 <code>logo-cloud</code><br />
@@ -202,7 +204,7 @@ function App() {
               </div>
               {
                 Object.entries(IconComponents).map(iconType => (
-                  <div class="item" key={iconType[0]}>
+                  <div className="item" key={iconType[0]}>
                     <div id={iconType[0]}><Icon type={iconType[0]} size={48} color="blue.4" /></div><br />
                     <code>{iconType[0]} </code><br />
                     <button value={iconType[0]} onClick={e => downloadSvg(document.getElementById(e.target.value).children[0], e.target.value)}>
@@ -213,38 +215,38 @@ function App() {
               }
             </div>
             <h5>from <a href="https://github.com/cloudflare/cloudflare-docs/tree/production/assets/images/reference-architecture">cloudflare-docs/assets/images/reference-architecture</a></h5>
-            <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
-              <div class="item" key='router'>
+            <div className="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
+              <div className="item" key='router'>
                 <div id='router'>
                   <img src={"https://cf-icons.pages.dev/router.svg"} width='48' height='48' /></div><br />
                 <code>router</code><br />
               </div>
-              <div class="item" key='server-database'>
+              <div className="item" key='server-database'>
                 <div id='server-database'>
                   <img src={"https://cf-icons.pages.dev/server-database.svg"} width='48' height='48' /></div><br />
                 <code>server-database</code><br />
               </div>
-              <div class="item" key='internet-globe'>
+              <div className="item" key='internet-globe'>
                 <div id='internet-globe'>
                   <img src={"https://cf-icons.pages.dev/internet-globe.svg"} width='48' height='48' /></div><br />
                 <code>internet-globe</code><br />
               </div>
-              <div class="item" key='cloud-internet'>
+              <div className="item" key='cloud-internet'>
                 <div id='cloud-internet'>
                   <img src={"https://cf-icons.pages.dev/cloud-internet.svg"} width='48' height='48' /></div><br />
                 <code>cloud-internet</code><br />
               </div>
-              <div class="item" key='server-origin'>
+              <div className="item" key='server-origin'>
                 <div id='server-origin'>
                   <img src={"https://cf-icons.pages.dev/server-origin.svg"} width='48' height='48' /></div><br />
                 <code>server-origin</code><br />
               </div>
             </div>
             <h5>from <a href="https://github.com/cloudflare/cloudflare-docs/tree/production/data">cloudflare-docs/data/product.yml</a></h5>
-            <div class="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
+            <div className="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
               {
                 DocsIcons.map(docsIcon => (
-                  <div class="item" key={docsIcon} >
+                  <div className="item" key={docsIcon} >
                     <div id={docsIcon}><img src={"https://cf-icons.pages.dev/" + docsIcon + ".svg"} width='48' height='48' /></div><br />
                     <code>{docsIcon} </code><br />
                   </div>
