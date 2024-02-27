@@ -1152,9 +1152,9 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cloudflare/component-icon@^11.10.0":
-  version "11.10.0"
-  resolved "https://registry.npmjs.org/@cloudflare/component-icon/-/component-icon-11.10.0.tgz"
+"@cloudflare/component-icon@^12.2.0":
+  version "12.2.0"
+  resolved "https://registry.npmjs.org/@cloudflare/component-icon/-/component-icon-12.2.0.tgz"
   integrity sha512-ity7oxHqN/KDatW2LiNdrv3sIOno0wGuNruhy5Y1nlpvHhb9mvtrOjmArMy9R6eRzTbXdY9TpkB7/sdvYWORbQ==
 
 "@cloudflare/component-logo@^7.0.2":

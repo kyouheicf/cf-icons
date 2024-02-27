@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@cloudflare/component-icon": "^11.10.0",
+    "@cloudflare/component-icon": "^12.2.0",
     "@cloudflare/component-logo": "^7.0.2",
     "@cloudflare/elements": "^3.0.3",
     "@cloudflare/style-const": "^5.7.3",
