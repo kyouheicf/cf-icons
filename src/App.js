@@ -236,10 +236,10 @@ function App() {
                   <img src={"https://cf-icons.pages.dev/cloud-internet.svg"} width='48' height='48' /></div><br />
                 <code>cloud-internet</code><br />
               </div>
-              <div className="item" key='server-origin'>
-                <div id='server-origin'>
-                  <img src={"https://cf-icons.pages.dev/server-origin.svg"} width='48' height='48' /></div><br />
-                <code>server-origin</code><br />
+              <div className="item" key='cloud-multi'>
+                <div id='cloud-multi'>
+                  <img src={"https://cf-icons.pages.dev/cloud-multi.svg"} width='48' height='48' /></div><br />
+                <code>cloud-multi</code><br />
               </div>
               <div className="item" key='office-headquarters'>
                 <div id='office-headquarters'>
