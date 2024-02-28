@@ -251,7 +251,13 @@ function App() {
                   <img src={"https://cf-icons.pages.dev/security-fingerprint-privacy.svg"} width='48' height='48' /></div><br />
                 <code>security-fingerprint-privacy</code><br />
               </div>
+              <div className="item" key='azureAD'>
+                <div id='azureAD'>
+                  <img src={"https://cf-icons.pages.dev/azureAD.svg"} width='48' height='48' /></div><br />
+                <code>azureAD</code><br />
+              </div>
             </div>
+
             <h5>from <a href="https://github.com/cloudflare/cloudflare-docs/tree/production/data">cloudflare-docs/data/product.yml</a></h5>
             <div className="container" display="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
               {
