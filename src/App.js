@@ -256,6 +256,91 @@ function App() {
                   <img src={"https://cf-icons.pages.dev/azureAD.svg"} width='48' height='48' /></div><br />
                 <code>azureAD</code><br />
               </div>
+              <div className="item" key='AndroidLaptop'>
+                <div id='AndroidLaptop'>
+                  <img src={"https://cf-icons.pages.dev/AndroidLaptop.svg"} width='48' height='48' /></div><br />
+                <code>AndroidLaptop</code><br />
+              </div>
+              <div className="item" key='AndroidPhone'>
+                <div id='AndroidPhone'>
+                  <img src={"https://cf-icons.pages.dev/AndroidPhone.svg"} width='48' height='48' /></div><br />
+                <code>AndroidPhone</code><br />
+              </div>
+              <div className="item" key='AndroidTablet'>
+                <div id='AndroidTablet'>
+                  <img src={"https://cf-icons.pages.dev/AndroidTablet.svg"} width='48' height='48' /></div><br />
+                <code>AndroidTablet</code><br />
+              </div>
+              <div className="item" key='AppleLaptop'>
+                <div id='AppleLaptop'>
+                  <img src={"https://cf-icons.pages.dev/AppleLaptop.svg"} width='48' height='48' /></div><br />
+                <code>AppleLaptop</code><br />
+              </div>
+              <div className="item" key='ApplePhone'>
+                <div id='ApplePhone'>
+                  <img src={"https://cf-icons.pages.dev/ApplePhone.svg"} width='48' height='48' /></div><br />
+                <code>ApplePhone</code><br />
+              </div>
+              <div className="item" key='AppleTablet'>
+                <div id='AppleTablet'>
+                  <img src={"https://cf-icons.pages.dev/AppleTablet.svg"} width='48' height='48' /></div><br />
+                <code>AppleTablet</code><br />
+              </div>
+              <div className="item" key='ChromeLaptop'>
+                <div id='ChromeLaptop'>
+                  <img src={"https://cf-icons.pages.dev/ChromeLaptop.svg"} width='48' height='48' /></div><br />
+                <code>ChromeLaptop</code><br />
+              </div>
+              <div className="item" key='ChromePhone'>
+                <div id='ChromePhone'>
+                  <img src={"https://cf-icons.pages.dev/ChromePhone.svg"} width='48' height='48' /></div><br />
+                <code>ChromePhone</code><br />
+              </div>
+              <div className="item" key='ChromeTablet'>
+                <div id='ChromeTablet'>
+                  <img src={"https://cf-icons.pages.dev/ChromeTablet.svg"} width='48' height='48' /></div><br />
+                <code>ChromeTablet</code><br />
+              </div>
+              <div className="item" key='Cloudflared'>
+                <div id='Cloudflared'>
+                  <img src={"https://cf-icons.pages.dev/Cloudflared.svg"} width='48' height='48' /></div><br />
+                <code>Cloudflared</code><br />
+              </div>
+              <div className="item" key='Google'>
+                <div id='Google'>
+                  <img src={"https://cf-icons.pages.dev/Google.svg"} width='48' height='48' /></div><br />
+                <code>Google</code><br />
+              </div>
+              <div className="item" key='Onetimepin'>
+                <div id='Onetimepin'>
+                  <img src={"https://cf-icons.pages.dev/Onetimepin.svg"} width='48' height='48' /></div><br />
+                <code>Onetimepin</code><br />
+              </div>
+              <div className="item" key='WarpConnector'>
+                <div id='WarpConnector'>
+                  <img src={"https://cf-icons.pages.dev/WarpConnector.svg"} width='48' height='48' /></div><br />
+                <code>WarpConnector</code><br />
+              </div>
+              <div className="item" key='WindowsLaptop'>
+                <div id='WindowsLaptop'>
+                  <img src={"https://cf-icons.pages.dev/WindowsLaptop.svg"} width='48' height='48' /></div><br />
+                <code>WindowsLaptop</code><br />
+              </div>
+              <div className="item" key='WindowsPhone'>
+                <div id='WindowsPhone'>
+                  <img src={"https://cf-icons.pages.dev/WindowsPhone.svg"} width='48' height='48' /></div><br />
+                <code>WindowsPhone</code><br />
+              </div>
+              <div className="item" key='WindowsTablet'>
+                <div id='WindowsTablet'>
+                  <img src={"https://cf-icons.pages.dev/WindowsTablet.svg"} width='48' height='48' /></div><br />
+                <code>WindowsTablet</code><br />
+              </div>
+              <div className="item" key='ZeroTrustLogo'>
+                <div id='ZeroTrustLogo'>
+                  <img src={"https://cf-icons.pages.dev/ZeroTrustLogo.svg"} width='48' height='48' /></div><br />
+                <code>ZeroTrustLogo</code><br />
+              </div>
             </div>
 
             <h5>from <a href="https://github.com/cloudflare/cloudflare-docs/tree/production/data">cloudflare-docs/data/product.yml</a></h5>
